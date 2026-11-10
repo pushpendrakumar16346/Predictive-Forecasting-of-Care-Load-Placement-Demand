@@ -1,0 +1,70 @@
+feature_name,forecast_time_availability,leakage_assessment,recommended_for_pre_reporting_forecast
+day_of_week,Available before forecast origin,No direct target leakage,True
+day_name,Available before forecast origin,No direct target leakage,True
+day,Available before forecast origin,No direct target leakage,True
+month,Available before forecast origin,No direct target leakage,True
+quarter,Available before forecast origin,No direct target leakage,True
+year,Available before forecast origin,No direct target leakage,True
+week_of_year,Available before forecast origin,No direct target leakage,True
+is_weekend,Available before forecast origin,No direct target leakage,True
+is_month_start,Available before forecast origin,No direct target leakage,True
+is_month_end,Available before forecast origin,No direct target leakage,True
+is_quarter_start,Available before forecast origin,No direct target leakage,True
+is_quarter_end,Available before forecast origin,No direct target leakage,True
+is_us_federal_holiday,Available before forecast origin,No direct target leakage,True
+days_since_us_federal_holiday,Available before forecast origin,No direct target leakage,True
+days_until_us_federal_holiday,Available before forecast origin,No direct target leakage,True
+hhs_care_lag_1,Available before forecast origin,No direct target leakage,True
+hhs_care_lag_2,Available before forecast origin,No direct target leakage,True
+hhs_care_lag_3,Available before forecast origin,No direct target leakage,True
+hhs_care_lag_7,Available before forecast origin,No direct target leakage,True
+hhs_care_lag_14,Available before forecast origin,No direct target leakage,True
+hhs_care_lag_30,Available before forecast origin,No direct target leakage,True
+hhs_rolling_mean_3d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_variance_3d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_std_3d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_min_3d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_max_3d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_mean_7d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_variance_7d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_std_7d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_min_7d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_max_7d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_mean_14d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_variance_14d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_std_14d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_min_14d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_max_14d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_mean_30d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_variance_30d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_std_30d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_min_30d,Available before forecast origin,No direct target leakage,True
+hhs_rolling_max_30d,Available before forecast origin,No direct target leakage,True
+apprehended_and_placed_in_cbp_custody_daily_change,Available after the current day's observation,Not suitable for same-day forecasting; use only when the current-day value is available.,False
+apprehended_and_placed_in_cbp_custody_percentage_change,Available after the current day's observation,Not suitable for same-day forecasting; use only when the current-day value is available.,False
+in_cbp_custody_daily_change,Available after the current day's observation,Not suitable for same-day forecasting; use only when the current-day value is available.,False
+in_cbp_custody_percentage_change,Available after the current day's observation,Not suitable for same-day forecasting; use only when the current-day value is available.,False
+transferred_out_of_cbp_custody_daily_change,Available after the current day's observation,Not suitable for same-day forecasting; use only when the current-day value is available.,False
+transferred_out_of_cbp_custody_percentage_change,Available after the current day's observation,Not suitable for same-day forecasting; use only when the current-day value is available.,False
+in_hhs_care_daily_change,Available after the current day's observation,Not suitable for same-day forecasting; use only when the current-day value is available.,False
+in_hhs_care_percentage_change,Available after the current day's observation,Not suitable for same-day forecasting; use only when the current-day value is available.,False
+discharged_from_hhs_care_daily_change,Available after the current day's observation,Not suitable for same-day forecasting; use only when the current-day value is available.,False
+discharged_from_hhs_care_percentage_change,Available after the current day's observation,Not suitable for same-day forecasting; use only when the current-day value is available.,False
+net_hhs_flow,Available after current-day flow reporting,Potential same-day leakage for forecasts made before flow reporting.,False
+net_cbp_flow,Available after current-day flow reporting,Potential same-day leakage for forecasts made before flow reporting.,False
+transfer_to_apprehension_ratio,Available after current-day flow reporting,Potential same-day leakage for forecasts made before flow reporting.,False
+discharge_to_transfer_ratio,Available after current-day flow reporting,Potential same-day leakage for forecasts made before flow reporting.,False
+cumulative_net_hhs_flow,Available after current-day flow reporting,Potential same-day leakage for forecasts made before flow reporting.,False
+cumulative_net_cbp_flow,Available after current-day flow reporting,Potential same-day leakage for forecasts made before flow reporting.,False
+net_hhs_flow_lag_1,Available before forecast origin,No direct target leakage,True
+net_cbp_flow_lag_1,Available before forecast origin,No direct target leakage,True
+transfer_to_apprehension_ratio_lag_1,Available before forecast origin,No direct target leakage,True
+discharge_to_transfer_ratio_lag_1,Available before forecast origin,No direct target leakage,True
+hhs_surge_indicator,Available before forecast origin,No direct target leakage,True
+hhs_surge_change_indicator,Available before forecast origin,No direct target leakage,True
+date_observed,Available before forecast origin,No direct target leakage,True
+children_apprehended_and_placed_in_cbp_custody_observed,Available before forecast origin,No direct target leakage,True
+children_in_cbp_custody_observed,Available before forecast origin,No direct target leakage,True
+children_transferred_out_of_cbp_custody_observed,Available before forecast origin,No direct target leakage,True
+children_in_hhs_care_observed,Available before forecast origin,No direct target leakage,True
+children_discharged_from_hhs_care_observed,Available before forecast origin,No direct target leakage,True

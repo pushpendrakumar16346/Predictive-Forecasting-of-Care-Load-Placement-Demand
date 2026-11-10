@@ -1,0 +1,70 @@
+feature_name,leakage_review
+day_of_week,Calendar feature: known in advance.
+day_name,Calendar feature: known in advance.
+day,Calendar feature: known in advance.
+month,Calendar feature: known in advance.
+quarter,Calendar feature: known in advance.
+year,Calendar feature: known in advance.
+week_of_year,Calendar feature: known in advance.
+is_weekend,Calendar feature: known in advance.
+is_month_start,Calendar feature: known in advance.
+is_month_end,Calendar feature: known in advance.
+is_quarter_start,Calendar feature: known in advance.
+is_quarter_end,Calendar feature: known in advance.
+is_us_federal_holiday,Calendar feature: known in advance.
+days_since_us_federal_holiday,Calendar feature: known in advance.
+days_until_us_federal_holiday,Calendar feature: known in advance.
+hhs_care_lag_1,Historical feature: constructed using past observations.
+hhs_care_lag_2,Historical feature: constructed using past observations.
+hhs_care_lag_3,Historical feature: constructed using past observations.
+hhs_care_lag_7,Historical feature: constructed using past observations.
+hhs_care_lag_14,Historical feature: constructed using past observations.
+hhs_care_lag_30,Historical feature: constructed using past observations.
+hhs_rolling_mean_3d,Historical feature: constructed using past observations.
+hhs_rolling_variance_3d,Historical feature: constructed using past observations.
+hhs_rolling_std_3d,Historical feature: constructed using past observations.
+hhs_rolling_min_3d,Historical feature: constructed using past observations.
+hhs_rolling_max_3d,Historical feature: constructed using past observations.
+hhs_rolling_mean_7d,Historical feature: constructed using past observations.
+hhs_rolling_variance_7d,Historical feature: constructed using past observations.
+hhs_rolling_std_7d,Historical feature: constructed using past observations.
+hhs_rolling_min_7d,Historical feature: constructed using past observations.
+hhs_rolling_max_7d,Historical feature: constructed using past observations.
+hhs_rolling_mean_14d,Historical feature: constructed using past observations.
+hhs_rolling_variance_14d,Historical feature: constructed using past observations.
+hhs_rolling_std_14d,Historical feature: constructed using past observations.
+hhs_rolling_min_14d,Historical feature: constructed using past observations.
+hhs_rolling_max_14d,Historical feature: constructed using past observations.
+hhs_rolling_mean_30d,Historical feature: constructed using past observations.
+hhs_rolling_variance_30d,Historical feature: constructed using past observations.
+hhs_rolling_std_30d,Historical feature: constructed using past observations.
+hhs_rolling_min_30d,Historical feature: constructed using past observations.
+hhs_rolling_max_30d,Historical feature: constructed using past observations.
+apprehended_and_placed_in_cbp_custody_daily_change,Potential same-day leakage: verify reporting availability before model use.
+apprehended_and_placed_in_cbp_custody_percentage_change,Potential same-day leakage: verify reporting availability before model use.
+in_cbp_custody_daily_change,Potential same-day leakage: verify reporting availability before model use.
+in_cbp_custody_percentage_change,Potential same-day leakage: verify reporting availability before model use.
+transferred_out_of_cbp_custody_daily_change,Potential same-day leakage: verify reporting availability before model use.
+transferred_out_of_cbp_custody_percentage_change,Potential same-day leakage: verify reporting availability before model use.
+in_hhs_care_daily_change,Potential same-day leakage: verify reporting availability before model use.
+in_hhs_care_percentage_change,Potential same-day leakage: verify reporting availability before model use.
+discharged_from_hhs_care_daily_change,Potential same-day leakage: verify reporting availability before model use.
+discharged_from_hhs_care_percentage_change,Potential same-day leakage: verify reporting availability before model use.
+net_hhs_flow,Potential same-day leakage: verify reporting availability before model use.
+net_cbp_flow,Potential same-day leakage: verify reporting availability before model use.
+transfer_to_apprehension_ratio,Potential same-day leakage: verify reporting availability before model use.
+discharge_to_transfer_ratio,Potential same-day leakage: verify reporting availability before model use.
+cumulative_net_hhs_flow,Potential same-day leakage: verify reporting availability before model use.
+cumulative_net_cbp_flow,Potential same-day leakage: verify reporting availability before model use.
+net_hhs_flow_lag_1,Historical feature: constructed using past observations.
+net_cbp_flow_lag_1,Historical feature: constructed using past observations.
+transfer_to_apprehension_ratio_lag_1,Historical feature: constructed using past observations.
+discharge_to_transfer_ratio_lag_1,Historical feature: constructed using past observations.
+hhs_surge_indicator,Historical surge feature: based on lagged target observations.
+hhs_surge_change_indicator,Historical surge feature: based on lagged target observations.
+date_observed,Data availability indicator: use only if known at forecast origin.
+children_apprehended_and_placed_in_cbp_custody_observed,Data availability indicator: use only if known at forecast origin.
+children_in_cbp_custody_observed,Data availability indicator: use only if known at forecast origin.
+children_transferred_out_of_cbp_custody_observed,Data availability indicator: use only if known at forecast origin.
+children_in_hhs_care_observed,Data availability indicator: use only if known at forecast origin.
+children_discharged_from_hhs_care_observed,Data availability indicator: use only if known at forecast origin.

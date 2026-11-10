@@ -1,0 +1,31 @@
+# Retraining Criteria
+
+{
+    "review_frequency": "Monthly, or after a material data or operational change",
+    "performance_trigger": {
+        "description": "Retrain or investigate when validation MAE or RMSE worsens materially against the approved baseline",
+        "suggested_threshold": "20% deterioration for two consecutive evaluation periods"
+    },
+    "drift_trigger": {
+        "description": "Investigate model retraining when PSI indicates significant feature or target distribution drift",
+        "suggested_threshold": "PSI >= 0.25"
+    },
+    "data_quality_trigger": {
+        "description": "Investigate before retraining if date gaps, duplicate dates, missing target values, or invalid records appear",
+        "action": "Resolve data quality issues before model training"
+    },
+    "forecast_stability_trigger": {
+        "description": "Review the model when forecast outputs become unstable or implausible",
+        "action": "Compare against persistence and moving-average baselines"
+    },
+    "retraining_validation": [
+        "Use chronological train-validation-test splits",
+        "Use walk-forward validation",
+        "Compare against the currently deployed model",
+        "Evaluate MAE, RMSE and MAPE where appropriate",
+        "Check forecast horizons of 1, 7, 14 and 30 days",
+        "Review confidence intervals and operational capacity implications",
+        "Promote a replacement only after validation and approval"
+    ],
+    "deployment_rule": "Never replace the production model automatically based only on a drift alert."
+}

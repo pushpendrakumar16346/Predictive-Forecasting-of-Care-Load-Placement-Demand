@@ -1,0 +1,10 @@
+{
+    "dataset_name": "HHS_Unaccompanied_Alien_Children_Program.csv",
+    "source_file": "HHS_Unaccompanied_Alien_Children_Program.csv",
+    "source_location": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\data\\raw\\HHS_Unaccompanied_Alien_Children_Program.csv",
+    "source_type": "User-provided CSV",
+    "official_source_url": "Not verified from CSV metadata",
+    "original_data_modified": false,
+    "inspection_conversion_applied": "Date parsing and comma-formatted numeric conversion were performed on a separate inspection copy.",
+    "provenance_status": "File identity verified; original publisher and official source URL require independent verification."
+}

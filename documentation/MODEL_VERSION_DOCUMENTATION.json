@@ -1,0 +1,211 @@
+{
+    "generated_at": "2026-11-05 04:33:43",
+    "project": "Predictive Forecasting of Care Load & Placement Demand",
+    "target": "children_in_hhs_care",
+    "model_artifacts": [
+        {
+            "Model Name": "gradient_boosting_14_day",
+            "File Name": "gradient_boosting_14_day.joblib",
+            "Relative Path": "models\\machine_learning\\gradient_boosting_14_day.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 356652,
+            "Last Modified": "2026-11-04T14:01:48.897271",
+            "SHA256": "55e7064e0daa9a4a8b43cccb6a0adbb4277bdc5ebf520282b803af35ec07d46d",
+            "Version Identifier": "55e7064e0daa"
+        },
+        {
+            "Model Name": "gradient_boosting_1_day",
+            "File Name": "gradient_boosting_1_day.joblib",
+            "Relative Path": "models\\machine_learning\\gradient_boosting_1_day.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 113948,
+            "Last Modified": "2026-11-04T14:01:48.737032",
+            "SHA256": "8fe22a0f7e11c38e8080a34d7465f6241c343e0ebe8454c54a7b60b8e5d9ba7b",
+            "Version Identifier": "8fe22a0f7e11"
+        },
+        {
+            "Model Name": "gradient_boosting_30_day",
+            "File Name": "gradient_boosting_30_day.joblib",
+            "Relative Path": "models\\machine_learning\\gradient_boosting_30_day.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 352572,
+            "Last Modified": "2026-11-04T14:01:48.979880",
+            "SHA256": "077d9f4abc6a8080bae8a83653a26674e91d2350cdc268398c9f8a9ee0cea774",
+            "Version Identifier": "077d9f4abc6a"
+        },
+        {
+            "Model Name": "gradient_boosting_7_day",
+            "File Name": "gradient_boosting_7_day.joblib",
+            "Relative Path": "models\\machine_learning\\gradient_boosting_7_day.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 360092,
+            "Last Modified": "2026-11-04T14:01:48.817454",
+            "SHA256": "4d2924c265025d3d95a75650956c7f0d6e2f7e926731c21cdc4e7f6022548530",
+            "Version Identifier": "4d2924c26502"
+        },
+        {
+            "Model Name": "gradient_boosting_recursive",
+            "File Name": "gradient_boosting_recursive.joblib",
+            "Relative Path": "models\\machine_learning\\gradient_boosting_recursive.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 219548,
+            "Last Modified": "2026-11-04T14:01:49.052715",
+            "SHA256": "7f651bd97fedc16b3c2a754924e11770ff6d06d059a0b6737371c10283f4c36d",
+            "Version Identifier": "7f651bd97fed"
+        },
+        {
+            "Model Name": "random_forest_14_day",
+            "File Name": "random_forest_14_day.joblib",
+            "Relative Path": "models\\machine_learning\\random_forest_14_day.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 2849249,
+            "Last Modified": "2026-11-04T14:01:48.878608",
+            "SHA256": "7a7b73f7690b1bc24d83c6bb2dac4cc6d0db293f98f7b7ec62a6d60199c1d00d",
+            "Version Identifier": "7a7b73f7690b"
+        },
+        {
+            "Model Name": "random_forest_1_day",
+            "File Name": "random_forest_1_day.joblib",
+            "Relative Path": "models\\machine_learning\\random_forest_1_day.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 1409969,
+            "Last Modified": "2026-11-04T14:01:48.718949",
+            "SHA256": "643b735e85b36879cc8f15134adf0aa9bb05286263a56644859843c30f330d34",
+            "Version Identifier": "643b735e85b3"
+        },
+        {
+            "Model Name": "random_forest_30_day",
+            "File Name": "random_forest_30_day.joblib",
+            "Relative Path": "models\\machine_learning\\random_forest_30_day.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 445169,
+            "Last Modified": "2026-11-04T14:01:48.962790",
+            "SHA256": "d584573751db1ae21475e76a79c6c6d9b394c908f242418cacf7ae0b3324c8cf",
+            "Version Identifier": "d584573751db"
+        },
+        {
+            "Model Name": "random_forest_7_day",
+            "File Name": "random_forest_7_day.joblib",
+            "Relative Path": "models\\machine_learning\\random_forest_7_day.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 3997505,
+            "Last Modified": "2026-11-04T14:01:48.800320",
+            "SHA256": "9e9c4eaf774a2b6b9260a0dbf309d4c7cf6e31128d58d60d17474f457c88559d",
+            "Version Identifier": "9e9c4eaf774a"
+        },
+        {
+            "Model Name": "random_forest_recursive",
+            "File Name": "random_forest_recursive.joblib",
+            "Relative Path": "models\\machine_learning\\random_forest_recursive.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 468785,
+            "Last Modified": "2026-11-04T14:01:49.041544",
+            "SHA256": "764330e37c35b8599e028e20e145e0d64f3a61a1a70c7e991a13c5265553ac9b",
+            "Version Identifier": "764330e37c35"
+        },
+        {
+            "Model Name": "arima_final",
+            "File Name": "arima_final.joblib",
+            "Relative Path": "models\\statistical\\arima_final.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 2588245,
+            "Last Modified": "2026-11-04T13:56:09.053670",
+            "SHA256": "19ebfd34bfefbfaa3d0ca938504d4686a20256b121a768fe1e97cd0fe26272f3",
+            "Version Identifier": "19ebfd34bfef"
+        },
+        {
+            "Model Name": "arima_validation",
+            "File Name": "arima_validation.joblib",
+            "Relative Path": "models\\statistical\\arima_validation.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 2165685,
+            "Last Modified": "2026-11-04T13:56:08.940501",
+            "SHA256": "68ab6785d4d2c649d263dd2c6b066f24ef21987bdf2c78886169d603fbea3aa0",
+            "Version Identifier": "68ab6785d4d2"
+        },
+        {
+            "Model Name": "holt_linear_trend_final",
+            "File Name": "holt_linear_trend_final.joblib",
+            "Relative Path": "models\\statistical\\holt_linear_trend_final.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 62982,
+            "Last Modified": "2026-11-04T13:56:09.159745",
+            "SHA256": "a200cf877a9d75ffae8ff072e545051a1b55759cc2d0ea065dd8a041b043d898",
+            "Version Identifier": "a200cf877a9d"
+        },
+        {
+            "Model Name": "holt_linear_trend_validation",
+            "File Name": "holt_linear_trend_validation.joblib",
+            "Relative Path": "models\\statistical\\holt_linear_trend_validation.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 61097,
+            "Last Modified": "2026-11-04T13:56:09.009613",
+            "SHA256": "99c3e1085abe82ebc92012afba67e883807dc881efb120ff8ab63b7b6da50cf3",
+            "Version Identifier": "99c3e1085abe"
+        },
+        {
+            "Model Name": "holt_winters_final",
+            "File Name": "holt_winters_final.joblib",
+            "Relative Path": "models\\statistical\\holt_winters_final.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 63718,
+            "Last Modified": "2026-11-04T13:56:09.167152",
+            "SHA256": "c84ddb7b9fa11af5ac8881118b8621ad9ed3872f7a1e9605484626c31c578f55",
+            "Version Identifier": "c84ddb7b9fa1"
+        },
+        {
+            "Model Name": "holt_winters_validation",
+            "File Name": "holt_winters_validation.joblib",
+            "Relative Path": "models\\statistical\\holt_winters_validation.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 61833,
+            "Last Modified": "2026-11-04T13:56:09.016096",
+            "SHA256": "2a0bca3afa80a8a4ad5f21185e262f1945bfcf887b310232e7a53fc068c1c23d",
+            "Version Identifier": "2a0bca3afa80"
+        },
+        {
+            "Model Name": "sarima_final",
+            "File Name": "sarima_final.joblib",
+            "Relative Path": "models\\statistical\\sarima_final.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 33871265,
+            "Last Modified": "2026-11-04T13:56:09.146074",
+            "SHA256": "bc51a32b079e69290e7a00ec9866306aaea206f74330a074e615b01dbbd065e7",
+            "Version Identifier": "bc51a32b079e"
+        },
+        {
+            "Model Name": "sarima_validation",
+            "File Name": "sarima_validation.joblib",
+            "Relative Path": "models\\statistical\\sarima_validation.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 27933729,
+            "Last Modified": "2026-11-04T13:56:09.001003",
+            "SHA256": "45b39c70c5db1e48414a2bc7988222584d1478c55ab128567b0ffebf68c3e8be",
+            "Version Identifier": "45b39c70c5db"
+        },
+        {
+            "Model Name": "simple_exponential_smoothing_final",
+            "File Name": "simple_exponential_smoothing_final.joblib",
+            "Relative Path": "models\\statistical\\simple_exponential_smoothing_final.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 62854,
+            "Last Modified": "2026-11-04T13:56:09.152583",
+            "SHA256": "bffd9001f9ebf75017516610b77664965dfb376abb5ae623a5074f0be330c353",
+            "Version Identifier": "bffd9001f9eb"
+        },
+        {
+            "Model Name": "simple_exponential_smoothing_validation",
+            "File Name": "simple_exponential_smoothing_validation.joblib",
+            "Relative Path": "models\\statistical\\simple_exponential_smoothing_validation.joblib",
+            "File Extension": ".joblib",
+            "File Size Bytes": 61001,
+            "Last Modified": "2026-11-04T13:56:09.005045",
+            "SHA256": "14902b6b85f7ca9392be38865ac6325c72a69caa84b8c6a345322317ede11d3a",
+            "Version Identifier": "14902b6b85f7"
+        }
+    ],
+    "existing_registry_path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\registry\\model_registry.json",
+    "registry_found": true,
+    "versioning_method": "SHA-256 content hash",
+    "note": "Version identifiers are content-based fingerprints, not claims of semantic model release versions."
+}

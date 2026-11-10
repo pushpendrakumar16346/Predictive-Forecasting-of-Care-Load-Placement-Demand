@@ -1,0 +1,17 @@
+{
+    "environment": "development",
+    "debug": true,
+    "model_directory": "models",
+    "data_directory": "data/processed",
+    "output_directory": "outputs",
+    "log_directory": "monitoring/logs",
+    "forecast_target": "children_in_hhs_care",
+    "forecast_horizons": [
+        1,
+        7,
+        14,
+        30
+    ],
+    "random_seed": 42,
+    "monitoring_enabled": true
+}
