@@ -1,0 +1,6 @@
+column,original_non_missing,converted_non_missing,conversion_failures
+children_apprehended_and_placed_in_cbp_custody,720,720,0
+children_in_cbp_custody,720,720,0
+children_transferred_out_of_cbp_custody,720,720,0
+children_in_hhs_care,720,720,0
+children_discharged_from_hhs_care,720,720,0

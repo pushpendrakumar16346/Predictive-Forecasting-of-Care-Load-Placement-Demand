@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+scikit-learn
+streamlit
+plotly
+openpyxl
+joblib
+holidays
+jupyter
+ipykernel
+python-dateutil

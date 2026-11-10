@@ -1,0 +1,46 @@
+{
+    "target_variable": "children_in_hhs_care",
+    "date_column": "date",
+    "reporting_frequency": "Daily",
+    "seasonal_period": 7,
+    "adf_statistic": -1.8555957551406173,
+    "adf_pvalue": 0.35322971375823625,
+    "selected_differencing_order": 1,
+    "selected_arima_order": [
+        2,
+        1,
+        2
+    ],
+    "selected_sarima_order": [
+        1,
+        1,
+        1
+    ],
+    "selected_seasonal_order": [
+        1,
+        1,
+        1,
+        7
+    ],
+    "forecast_horizons": {
+        "1_day": 1,
+        "7_day": 7,
+        "14_day": 14,
+        "30_day": 30
+    },
+    "training_observations": 482,
+    "validation_observations": 104,
+    "testing_observations": 104,
+    "validation_forecast_origin": "2025-01-01 00:00:00",
+    "testing_forecast_origin": "2025-06-01 00:00:00",
+    "models": [
+        "ARIMA",
+        "SARIMA",
+        "Simple_Exponential_Smoothing",
+        "Holt_Linear_Trend",
+        "Holt_Winters"
+    ],
+    "parameter_selection": "Training data AIC",
+    "model_selection": "Validation MAE",
+    "final_evaluation": "Held-out testing data"
+}

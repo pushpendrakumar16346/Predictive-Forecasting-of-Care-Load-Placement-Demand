@@ -1,0 +1,7 @@
+original_column,standardized_column
+Date,date
+Children apprehended and placed in CBP custody*,children_apprehended_and_placed_in_cbp_custody
+Children in CBP custody,children_in_cbp_custody
+Children transferred out of CBP custody,children_transferred_out_of_cbp_custody
+Children in HHS Care,children_in_hhs_care
+Children discharged from HHS Care,children_discharged_from_hhs_care

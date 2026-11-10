@@ -1,0 +1,10 @@
+Check,Status
+Validation predictions loaded,PASS
+Testing predictions loaded,PASS
+Prediction intervals generated,PASS
+80% interval bounds valid,PASS
+95% interval bounds valid,PASS
+95% intervals are not narrower than 80%,PASS
+No missing interval bounds,PASS
+Coverage metrics generated,PASS
+Bootstrap results generated,PASS

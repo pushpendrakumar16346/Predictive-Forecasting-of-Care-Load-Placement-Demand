@@ -1,0 +1,62 @@
+
+CONFIDENCE INTERVALS AND UNCERTAINTY ANALYSIS
+==============================================
+
+Methodology:
+- Empirical residual bootstrap.
+- Validation residuals used for interval calibration.
+- Model-specific and horizon-specific residual distributions
+  are preferred.
+- Model-specific, horizon-specific and global residual
+  fallbacks are applied when necessary.
+- Asymmetric empirical residual quantiles are used.
+- Nonnegative lower prediction bounds are enforced.
+
+Prediction intervals:
+- 80% prediction intervals.
+- 95% prediction intervals.
+
+Evaluation:
+- Empirical interval coverage.
+- Prediction interval width.
+- Horizon-specific uncertainty.
+- Surge-period uncertainty.
+- Stable-period uncertainty.
+- Interval calibration diagnostics.
+
+Limitations:
+1. Prediction intervals are conditional on the forecasting
+   model and validation residual distribution.
+
+2. Bootstrap residuals may not be independent. Temporal
+   autocorrelation can affect interval reliability.
+
+3. Distribution shifts between validation and testing periods
+   can reduce empirical coverage.
+
+4. Extreme surges may be insufficiently represented in the
+   validation residual distribution.
+
+5. Small model-horizon residual samples can produce unstable
+   interval estimates.
+
+6. The empirical intervals are not guaranteed to achieve
+   nominal 80% or 95% coverage.
+
+7. Lower prediction bounds are restricted to zero because
+   the number of children in care cannot be negative.
+
+8. Missing reporting dates are not artificially interpolated.
+
+9. Surge and stable classifications are descriptive and
+   depend on observed changes or existing period labels.
+
+10. Interval coverage should be interpreted alongside
+    interval width, forecasting accuracy and sample size.
+
+11. The bootstrap implementation uses empirical residual
+    quantiles; it does not fully model future structural
+    changes or unknown external events.
+
+12. Validation-based calibration must be monitored and
+    recalibrated when the underlying data distribution changes.

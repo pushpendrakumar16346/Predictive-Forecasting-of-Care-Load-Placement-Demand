@@ -1,0 +1,21 @@
+Model,Status,Method,Prediction Shape,Model File
+gradient_boosting_14_day,PASSED,Repeated prediction using model feature schema,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\machine_learning\gradient_boosting_14_day.joblib
+gradient_boosting_1_day,PASSED,Repeated prediction using model feature schema,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\machine_learning\gradient_boosting_1_day.joblib
+gradient_boosting_30_day,PASSED,Repeated prediction using model feature schema,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\machine_learning\gradient_boosting_30_day.joblib
+gradient_boosting_7_day,PASSED,Repeated prediction using model feature schema,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\machine_learning\gradient_boosting_7_day.joblib
+gradient_boosting_recursive,PASSED,Repeated prediction using model feature schema,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\machine_learning\gradient_boosting_recursive.joblib
+random_forest_14_day,PASSED,Repeated prediction using model feature schema,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\machine_learning\random_forest_14_day.joblib
+random_forest_1_day,PASSED,Repeated prediction using model feature schema,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\machine_learning\random_forest_1_day.joblib
+random_forest_30_day,PASSED,Repeated prediction using model feature schema,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\machine_learning\random_forest_30_day.joblib
+random_forest_7_day,PASSED,Repeated prediction using model feature schema,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\machine_learning\random_forest_7_day.joblib
+random_forest_recursive,PASSED,Repeated prediction using model feature schema,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\machine_learning\random_forest_recursive.joblib
+arima_final,PASSED,Repeated 30-step statistical forecast,"(30,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\statistical\arima_final.joblib
+arima_validation,PASSED,Repeated 30-step statistical forecast,"(30,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\statistical\arima_validation.joblib
+holt_linear_trend_final,PASSED,Repeated default prediction,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\statistical\holt_linear_trend_final.joblib
+holt_linear_trend_validation,PASSED,Repeated default prediction,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\statistical\holt_linear_trend_validation.joblib
+holt_winters_final,PASSED,Repeated default prediction,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\statistical\holt_winters_final.joblib
+holt_winters_validation,PASSED,Repeated default prediction,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\statistical\holt_winters_validation.joblib
+sarima_final,PASSED,Repeated 30-step statistical forecast,"(30,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\statistical\sarima_final.joblib
+sarima_validation,PASSED,Repeated 30-step statistical forecast,"(30,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\statistical\sarima_validation.joblib
+simple_exponential_smoothing_final,PASSED,Repeated default prediction,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\statistical\simple_exponential_smoothing_final.joblib
+simple_exponential_smoothing_validation,PASSED,Repeated default prediction,"(1,)",C:\Users\hp\Predictive Forecasting of Care Load & Placement Demand\models\statistical\simple_exponential_smoothing_validation.joblib

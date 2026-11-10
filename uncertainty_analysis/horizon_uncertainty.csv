@@ -1,0 +1,2 @@
+Horizon,Sample_Size,Coverage_80,Coverage_95,Mean_Width_80,Mean_Width_95,Median_Width_80,Median_Width_95,Target_Coverage_80,Target_Coverage_95,Coverage_Error_80,Coverage_Error_95
+1,3221,0.9524992238435268,0.9850977957156163,2723.058227296456,3519.832771255405,2277.5,2707.875,0.8,0.95,0.15249922384352677,0.03509779571561633

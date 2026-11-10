@@ -1,0 +1,6 @@
+stage,record_count
+Original dataset,1170
+After blank row removal,720
+After exact duplicate removal,720
+After invalid date removal,720
+Final cleaned dataset,720

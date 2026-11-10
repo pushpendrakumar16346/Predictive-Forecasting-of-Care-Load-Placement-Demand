@@ -1,0 +1,7 @@
+column_name,original_data_type,inspection_data_type,description,column_role,target_classification,non_null_count,missing_count,unique_values,is_primary_target,is_secondary_target
+Date,object,Date,Date associated with the reported operational observation.,Temporal identifier,Not applicable,720,450,720,False,False
+Children apprehended and placed in CBP custody*,float64,Numerical (inspection conversion),Reported number of children apprehended and placed in CBP custody.,Secondary forecasting target,Secondary,720,450,169,False,True
+Children in CBP custody,float64,Numerical (inspection conversion),Reported number of children currently in CBP custody.,Secondary forecasting target,Secondary,720,450,216,False,True
+Children transferred out of CBP custody,float64,Numerical (inspection conversion),Reported number of children transferred out of CBP custody.,Secondary forecasting target,Secondary,720,450,185,False,True
+Children in HHS Care,object,Numerical (inspection conversion),Primary forecasting target representing the reported number of children in HHS care.,Primary forecasting target,Primary,720,450,642,True,False
+Children discharged from HHS Care,float64,Numerical (inspection conversion),Reported number of children discharged from HHS care.,Secondary forecasting target,Secondary,720,450,285,False,True

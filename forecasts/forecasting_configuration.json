@@ -1,0 +1,32 @@
+{
+    "source_file": "data\\processed\\engineered_features.csv",
+    "target_column": "children_in_hhs_care",
+    "date_column": "date",
+    "frequency": "Daily",
+    "median_reporting_interval": "1 days 00:00:00",
+    "forecast_horizons_days": [
+        1,
+        7,
+        14,
+        30
+    ],
+    "forecast_horizon_steps": {
+        "1_day": 1,
+        "7_day": 7,
+        "14_day": 14,
+        "30_day": 30
+    },
+    "total_observations": 720,
+    "usable_observations": 690,
+    "training_observations": 482,
+    "validation_observations": 104,
+    "testing_observations": 104,
+    "split_design": "Chronological 70/15/15 initial design",
+    "validation_methods": [
+        "Expanding-window",
+        "Rolling-window",
+        "Walk-forward"
+    ],
+    "transformation_policy": "Training data only",
+    "overlapping_horizons": "Separate forecast origins"
+}
