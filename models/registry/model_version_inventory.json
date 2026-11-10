@@ -1,0 +1,162 @@
+[
+    {
+        "model_name": "gradient_boosting_14_day",
+        "relative_path": "models\\machine_learning\\gradient_boosting_14_day.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "55e7064e0daa9a4a8b43cccb6a0adbb4277bdc5ebf520282b803af35ec07d46d",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "gradient_boosting_1_day",
+        "relative_path": "models\\machine_learning\\gradient_boosting_1_day.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "8fe22a0f7e11c38e8080a34d7465f6241c343e0ebe8454c54a7b60b8e5d9ba7b",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "gradient_boosting_30_day",
+        "relative_path": "models\\machine_learning\\gradient_boosting_30_day.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "077d9f4abc6a8080bae8a83653a26674e91d2350cdc268398c9f8a9ee0cea774",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "gradient_boosting_7_day",
+        "relative_path": "models\\machine_learning\\gradient_boosting_7_day.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "4d2924c265025d3d95a75650956c7f0d6e2f7e926731c21cdc4e7f6022548530",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "gradient_boosting_recursive",
+        "relative_path": "models\\machine_learning\\gradient_boosting_recursive.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "7f651bd97fedc16b3c2a754924e11770ff6d06d059a0b6737371c10283f4c36d",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "random_forest_14_day",
+        "relative_path": "models\\machine_learning\\random_forest_14_day.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "7a7b73f7690b1bc24d83c6bb2dac4cc6d0db293f98f7b7ec62a6d60199c1d00d",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "random_forest_1_day",
+        "relative_path": "models\\machine_learning\\random_forest_1_day.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "643b735e85b36879cc8f15134adf0aa9bb05286263a56644859843c30f330d34",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "random_forest_30_day",
+        "relative_path": "models\\machine_learning\\random_forest_30_day.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "d584573751db1ae21475e76a79c6c6d9b394c908f242418cacf7ae0b3324c8cf",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "random_forest_7_day",
+        "relative_path": "models\\machine_learning\\random_forest_7_day.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "9e9c4eaf774a2b6b9260a0dbf309d4c7cf6e31128d58d60d17474f457c88559d",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "random_forest_recursive",
+        "relative_path": "models\\machine_learning\\random_forest_recursive.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "764330e37c35b8599e028e20e145e0d64f3a61a1a70c7e991a13c5265553ac9b",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "arima_final",
+        "relative_path": "models\\statistical\\arima_final.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "19ebfd34bfefbfaa3d0ca938504d4686a20256b121a768fe1e97cd0fe26272f3",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "arima_validation",
+        "relative_path": "models\\statistical\\arima_validation.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "68ab6785d4d2c649d263dd2c6b066f24ef21987bdf2c78886169d603fbea3aa0",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "holt_linear_trend_final",
+        "relative_path": "models\\statistical\\holt_linear_trend_final.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "a200cf877a9d75ffae8ff072e545051a1b55759cc2d0ea065dd8a041b043d898",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "holt_linear_trend_validation",
+        "relative_path": "models\\statistical\\holt_linear_trend_validation.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "99c3e1085abe82ebc92012afba67e883807dc881efb120ff8ab63b7b6da50cf3",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "holt_winters_final",
+        "relative_path": "models\\statistical\\holt_winters_final.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "c84ddb7b9fa11af5ac8881118b8621ad9ed3872f7a1e9605484626c31c578f55",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "holt_winters_validation",
+        "relative_path": "models\\statistical\\holt_winters_validation.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "2a0bca3afa80a8a4ad5f21185e262f1945bfcf887b310232e7a53fc068c1c23d",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "sarima_final",
+        "relative_path": "models\\statistical\\sarima_final.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "bc51a32b079e69290e7a00ec9866306aaea206f74330a074e615b01dbbd065e7",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "sarima_validation",
+        "relative_path": "models\\statistical\\sarima_validation.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "45b39c70c5db1e48414a2bc7988222584d1478c55ab128567b0ffebf68c3e8be",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "simple_exponential_smoothing_final",
+        "relative_path": "models\\statistical\\simple_exponential_smoothing_final.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "bffd9001f9ebf75017516610b77664965dfb376abb5ae623a5074f0be330c353",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    },
+    {
+        "model_name": "simple_exponential_smoothing_validation",
+        "relative_path": "models\\statistical\\simple_exponential_smoothing_validation.joblib",
+        "artifact_version": "unassigned",
+        "sha256": "14902b6b85f7ca9392be38865ac6325c72a69caa84b8c6a345322317ede11d3a",
+        "approval_status": "discovered_not_approved",
+        "documentation_status": "hash_recorded_version_metadata_required"
+    }
+]
