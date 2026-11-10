@@ -1,0 +1,11 @@
+model,reproducible
+gradient_boosting_14_day.joblib,True
+gradient_boosting_1_day.joblib,True
+gradient_boosting_30_day.joblib,True
+gradient_boosting_7_day.joblib,True
+gradient_boosting_recursive.joblib,True
+random_forest_14_day.joblib,True
+random_forest_1_day.joblib,True
+random_forest_30_day.joblib,True
+random_forest_7_day.joblib,True
+random_forest_recursive.joblib,True

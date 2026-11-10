@@ -1,0 +1,11 @@
+model,execution_seconds,prediction_shape,status
+models\machine_learning\gradient_boosting_14_day.joblib,0.0028815999976359308,"(1,)",PASSED
+models\machine_learning\gradient_boosting_1_day.joblib,0.002562499954365194,"(1,)",PASSED
+models\machine_learning\gradient_boosting_30_day.joblib,0.0031051000114530325,"(1,)",PASSED
+models\machine_learning\gradient_boosting_7_day.joblib,0.0027700000209733844,"(1,)",PASSED
+models\machine_learning\gradient_boosting_recursive.joblib,0.002727899991441518,"(1,)",PASSED
+models\machine_learning\random_forest_14_day.joblib,0.04153649997897446,"(1,)",PASSED
+models\machine_learning\random_forest_1_day.joblib,0.03451530000893399,"(1,)",PASSED
+models\machine_learning\random_forest_30_day.joblib,0.03653320000739768,"(1,)",PASSED
+models\machine_learning\random_forest_7_day.joblib,0.03540890000294894,"(1,)",PASSED
+models\machine_learning\random_forest_recursive.joblib,0.037236600008327514,"(1,)",PASSED

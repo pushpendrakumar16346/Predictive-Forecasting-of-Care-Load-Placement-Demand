@@ -1,0 +1,7 @@
+Check,Status
+Raw date values valid,PASS
+Raw target values complete,PASS
+Raw dates contain no duplicates,PASS
+Processed dataset valid,PASS
+Raw and processed record counts match,PASS
+All raw and processed records match,PASS

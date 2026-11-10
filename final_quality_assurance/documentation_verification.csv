@@ -1,0 +1,5 @@
+file,exists,non_empty
+README.md,True,True
+INSTALLATION_GUIDE.md,True,True
+USER_GUIDE.md,True,True
+TECHNICAL_DOCUMENTATION.md,True,True

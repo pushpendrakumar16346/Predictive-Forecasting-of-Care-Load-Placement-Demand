@@ -1,0 +1,6 @@
+Column,Raw_Null_Count,Processed_Null_Count,Raw_Minimum,Processed_Minimum,Raw_Maximum,Processed_Maximum
+children_apprehended_and_placed_in_cbp_custody,450,0,0.0,0.0,333.0,333.0
+children_in_cbp_custody,450,0,7.0,7.0,531.0,531.0
+children_transferred_out_of_cbp_custody,450,0,0.0,0.0,440.0,440.0
+children_in_hhs_care,450,0,1972.0,1972.0,11516.0,11516.0
+children_discharged_from_hhs_care,450,0,0.0,0.0,505.0,505.0

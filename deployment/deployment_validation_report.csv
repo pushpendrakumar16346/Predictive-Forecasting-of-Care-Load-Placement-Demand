@@ -1,0 +1,26 @@
+Test,Status,Details
+File exists: config/development.json,PASSED,400 bytes
+File exists: config/production.json,PASSED,400 bytes
+File exists: models/model_loader.py,PASSED,2393 bytes
+File exists: monitoring/monitoring_utils.py,PASSED,3533 bytes
+File exists: deployment/dashboard_model_integration.py,PASSED,691 bytes
+File exists: deployment/DEPLOYMENT_AND_MAINTENANCE.md,PASSED,3842 bytes
+File exists: requirements-deployment.txt,PASSED,129 bytes
+File exists: .env.example,PASSED,100 bytes
+File exists: models/registry/model_registry.json,PASSED,9410 bytes
+Valid JSON: config/development.json,PASSED,10 top-level entries
+Valid JSON: config/production.json,PASSED,10 top-level entries
+Valid JSON: models/registry/model_registry.json,PASSED,5 top-level entries
+Trained model artifacts discovered,PASSED,20 artifacts
+Model artifact loading,PASSED,"Loaded: 20, Failed: 0"
+Monitoring utility import,PASSED,
+Model loader import,PASSED,
+Prediction reproducibility: gradient_boosting_14_day.joblib,PASSED,
+Prediction execution: gradient_boosting_14_day.joblib,PASSED,0.004125 seconds
+Dependency available: streamlit,PASSED,Version 1.66.1
+Dependency available: pandas,PASSED,Version 2.2.3
+Dependency available: numpy,PASSED,Version 1.26.4
+Dependency available: scikit-learn,PASSED,Version 1.4.2
+Dependency available: statsmodels,PASSED,Version 0.14.2
+Dependency available: joblib,PASSED,Version 1.4.2
+Dependency available: plotly,PASSED,Version 7.1.0

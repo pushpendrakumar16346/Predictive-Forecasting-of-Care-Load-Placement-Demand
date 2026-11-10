@@ -1,0 +1,19 @@
+Check,Status,Details
+README.md,PASS,Copied successfully
+INSTALLATION_GUIDE.md,PASS,Copied successfully
+USER_GUIDE.md,PASS,Copied successfully
+TECHNICAL_DOCUMENTATION.md,PASS,Copied successfully
+app.py,PASS,Copied successfully
+requirements.txt,NOT VERIFIED,Source item missing
+requirements-deployment.txt,PASS,Copied successfully
+config,PASS,Copied successfully
+notebooks,PASS,Copied successfully
+src,PASS,Copied successfully
+dashboard,PASS,Copied successfully
+models,PASS,Copied successfully
+documentation,PASS,Copied successfully
+research_paper,PASS,Copied successfully
+executive_summary,PASS,Copied successfully
+government_executive_summary,PASS,Copied successfully
+final_presentation,PASS,Copied successfully
+Processed dataset,PASS,Copied successfully

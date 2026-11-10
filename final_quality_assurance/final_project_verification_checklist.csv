@@ -1,0 +1,129 @@
+Category,Item,Status,Details
+Documentation,README.md,PASS,859 bytes
+Documentation,INSTALLATION_GUIDE.md,PASS,886 bytes
+Documentation,USER_GUIDE.md,PASS,825 bytes
+Documentation,TECHNICAL_DOCUMENTATION.md,PASS,"1,318 bytes"
+Notebooks,notebooks\ 06_Statistical_Analysis.ipynb.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\01_Project setup and folder creation.ipynb,PASS,3 cells; code syntax valid
+Notebooks,notebooks\02_Data_Inspection.ipynb,PASS,0 cells; code syntax valid
+Notebooks,notebooks\03_Data_Cleaning.ipynb,PASS,4 cells; code syntax valid
+Notebooks,notebooks\04_Time_Series_Continuity.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\05_Exploratory data analysis.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\07_Feature_Engineering.ipynb.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\08_Forecasting framework and validation.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\09_Baseline_Forecasting.ipynb.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\10_Statistical_Forecasting.ipynb.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\11_Machine_Learning.ipynb.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\12_Model_Evaluation.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\13_Confidence intervals and uncertainty analysis.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\14_KPI_and_Risk_Analysis.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\15_Scenario_Analysis.ipynb,PASS,2 cells; code syntax valid
+Notebooks,notebooks\16_Streamlit_Development.ipynb,PASS,3 cells; code syntax valid
+Notebooks,notebooks\17_Research_Paper.ipynb,PASS,22 cells; code syntax valid
+Notebooks,notebooks\18_Government_Executive_Summary.ipynb,PASS,8 cells; code syntax valid
+Notebooks,notebooks\19_Deployment_and_Maintenance.ipynb,PASS,24 cells; code syntax valid
+Notebooks,notebooks\20_Final quality assurance and submission.ipynb,PASS,9 cells; code syntax valid
+Dataset,Required columns,PASS,All six columns found
+Dataset,Date validity,PASS,Invalid dates: 0
+Dataset,Duplicate dates,PASS,Duplicate dates: 0
+Dataset,Chronological order,PASS,Rows: 720; date range: 2023-01-12 00:00:00 to 2025-12-21 00:00:00
+Dataset,Target completeness,PASS,Missing target values: 0
+Models,models\machine_learning\gradient_boosting_14_day.joblib,PASS,Artifact loaded successfully
+Models,models\machine_learning\gradient_boosting_1_day.joblib,PASS,Artifact loaded successfully
+Models,models\machine_learning\gradient_boosting_30_day.joblib,PASS,Artifact loaded successfully
+Models,models\machine_learning\gradient_boosting_7_day.joblib,PASS,Artifact loaded successfully
+Models,models\machine_learning\gradient_boosting_recursive.joblib,PASS,Artifact loaded successfully
+Models,models\machine_learning\random_forest_14_day.joblib,PASS,Artifact loaded successfully
+Models,models\machine_learning\random_forest_1_day.joblib,PASS,Artifact loaded successfully
+Models,models\machine_learning\random_forest_30_day.joblib,PASS,Artifact loaded successfully
+Models,models\machine_learning\random_forest_7_day.joblib,PASS,Artifact loaded successfully
+Models,models\machine_learning\random_forest_recursive.joblib,PASS,Artifact loaded successfully
+Models,models\statistical\arima_final.joblib,PASS,Artifact loaded successfully
+Models,models\statistical\arima_validation.joblib,PASS,Artifact loaded successfully
+Models,models\statistical\holt_linear_trend_final.joblib,PASS,Artifact loaded successfully
+Models,models\statistical\holt_linear_trend_validation.joblib,PASS,Artifact loaded successfully
+Models,models\statistical\holt_winters_final.joblib,PASS,Artifact loaded successfully
+Models,models\statistical\holt_winters_validation.joblib,PASS,Artifact loaded successfully
+Models,models\statistical\sarima_final.joblib,PASS,Artifact loaded successfully
+Models,models\statistical\sarima_validation.joblib,PASS,Artifact loaded successfully
+Models,models\statistical\simple_exponential_smoothing_final.joblib,PASS,Artifact loaded successfully
+Models,models\statistical\simple_exponential_smoothing_validation.joblib,PASS,Artifact loaded successfully
+Outputs,outputs/forecasts,PASS,21 non-empty forecast files verified
+Outputs,outputs/tables,PASS,18 files found
+Output files,outputs\tables\bootstrap_summary.csv,PASS,File readable
+Output files,outputs\tables\calibration_summary.csv,PASS,File readable
+Output files,outputs\tables\column_name_mapping.csv,PASS,File readable
+Output files,outputs\tables\conflicting_duplicate_dates.csv,PASS,File readable
+Output files,outputs\tables\coverage_metrics.csv,PASS,File readable
+Output files,outputs\tables\data_dictionary.csv,PASS,File readable
+Output files,outputs\tables\fractional_values_investigation.csv,PASS,File readable
+Output files,outputs\tables\horizon_uncertainty.csv,PASS,File readable
+Output files,outputs\tables\impossible_observations_investigation.csv,PASS,File readable
+Output files,outputs\tables\initial_data_profile.csv,PASS,File readable
+Output files,outputs\tables\model_horizon_uncertainty.csv,PASS,File readable
+Output files,outputs\tables\model_uncertainty.csv,PASS,File readable
+Output files,outputs\tables\negative_values_investigation.csv,PASS,File readable
+Output files,outputs\tables\numeric_conversion_report.csv,PASS,File readable
+Output files,outputs\tables\outlier_investigation.csv,PASS,File readable
+Output files,outputs\tables\period_uncertainty.csv,PASS,File readable
+Output files,outputs\tables\record_count_reconciliation.csv,PASS,File readable
+Output files,outputs\tables\uncertainty_integrity_report.csv,PASS,File readable
+Outputs,outputs/figures,PASS,4 files found
+Output files,outputs\figures\interval_coverage.png,PASS,File readable
+Output files,outputs\figures\prediction_intervals_95.png,PASS,File readable
+Output files,outputs\figures\uncertainty_by_demand_period.png,PASS,File readable
+Output files,outputs\figures\uncertainty_by_horizon.png,PASS,File readable
+Outputs,outputs/uncertainty_analysis,PASS,14 files found
+Output files,outputs\uncertainty_analysis\bootstrap_diagnostics.csv,PASS,File readable
+Output files,outputs\uncertainty_analysis\confidence_intervals.csv,PASS,File readable
+Output files,outputs\uncertainty_analysis\empirical_interval_coverage.csv,PASS,File readable
+Output files,outputs\uncertainty_analysis\horizon_uncertainty.csv,PASS,File readable
+Output files,outputs\uncertainty_analysis\interval_calibration.csv,PASS,File readable
+Output files,outputs\uncertainty_analysis\interval_coverage.png,PASS,File readable
+Output files,outputs\uncertainty_analysis\period_horizon_uncertainty.csv,PASS,File readable
+Output files,outputs\uncertainty_analysis\prediction_intervals.png,PASS,File readable
+Output files,outputs\uncertainty_analysis\surge_stable_uncertainty.csv,PASS,File readable
+Output files,outputs\uncertainty_analysis\testing_confidence_intervals.csv,PASS,File readable
+Output files,outputs\uncertainty_analysis\uncertainty_by_horizon.png,PASS,File readable
+Output files,outputs\uncertainty_analysis\uncertainty_limitations.txt,PASS,File readable
+Output files,outputs\uncertainty_analysis\uncertainty_period_analysis.csv,PASS,File readable
+Output files,outputs\uncertainty_analysis\validation_confidence_intervals.csv,PASS,File readable
+Outputs,outputs/deployment,PASS,27 files found
+Output files,outputs\deployment\complete_deployment_checklist.csv,PASS,File readable
+Output files,outputs\deployment\dashboard_model_integration_inspection.json,PASS,File readable
+Output files,outputs\deployment\dashboard_performance_report.json,PASS,File readable
+Output files,outputs\deployment\dashboard_performance_results.csv,PASS,File readable
+Output files,outputs\deployment\dashboard_performance_summary.csv,PASS,File readable
+Output files,outputs\deployment\dashboard_performance_test.log,PASS,File readable
+Output files,outputs\deployment\data_refresh_comparison_details.csv,PASS,File readable
+Output files,outputs\deployment\data_refresh_exception_details.csv,PASS,File readable
+Output files,outputs\deployment\data_refresh_final_verification.csv,PASS,File readable
+Output files,outputs\deployment\data_refresh_verification_checks.csv,PASS,File readable
+Output files,outputs\deployment\data_refresh_verification_report.json,PASS,File readable
+Output files,outputs\deployment\deployment_integration_audit.json,PASS,File readable
+Output files,outputs\deployment\deployment_summary.json,PASS,File readable
+Output files,outputs\deployment\deployment_validation_report.csv,PASS,File readable
+Output files,outputs\deployment\final_deployment_maintenance_checklist.csv,PASS,File readable
+Output files,outputs\deployment\final_live_deployment_validation.json,PASS,File readable
+Output files,outputs\deployment\forecast_reproducibility_results.csv,PASS,File readable
+Output files,outputs\deployment\live_dashboard_feature_compatibility.json,PASS,File readable
+Output files,outputs\deployment\live_model_integration_report.json,PASS,File readable
+Output files,outputs\deployment\model_feature_compatibility_audit.json,PASS,File readable
+Output files,outputs\deployment\model_performance_benchmark.csv,PASS,File readable
+Output files,outputs\deployment\model_reproducibility_report.csv,PASS,File readable
+Output files,outputs\deployment\model_version_inventory.csv,PASS,File readable
+Output files,outputs\deployment\reproducibility_refresh_governance_checks.csv,PASS,File readable
+Output files,outputs\deployment\reproducibility_refresh_governance_report.json,PASS,File readable
+Output files,outputs\deployment\streamlit_smoke_test.log,PASS,File readable
+Output files,outputs\deployment\streamlit_smoke_test_report.json,PASS,File readable
+Dashboard,app.py syntax,PASS,Python syntax valid
+Dashboard,Historical monitoring,PASS,Source keyword evidence found
+Dashboard,Predictive forecasting,PASS,Source keyword evidence found
+Dashboard,Capacity and surge risk,PASS,Source keyword evidence found
+Dashboard,Scenario and model comparison,PASS,Source keyword evidence found
+Reports,research_paper/Predictive_Forecasting_Research_Paper.docx,PASS,"42,805 bytes"
+Reports,research_paper/Predictive_Forecasting_Research_Paper.pdf,PASS,"19,930 bytes"
+Reports,government_executive_summary/Government_Executive_Summary.docx,PASS,"80,636 bytes"
+Reports,government_executive_summary/Government_Executive_Summary.pdf,PASS,"127,010 bytes"
+Presentation,final_presentation\Predictive_Forecasting_Final_Presentation.pptx,PASS,9 slides
+Submission,final_submission_verified_20261105_174724.zip,PASS,ZIP entries: 225; corrupt entry: None

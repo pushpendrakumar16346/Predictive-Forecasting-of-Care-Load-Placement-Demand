@@ -1,0 +1,23 @@
+{
+    "project": "Predictive Forecasting of Care Load & Placement Demand",
+    "generated_at": "2026-11-05 04:33:43",
+    "run_id": "20261105_043343",
+    "target": "children_in_hhs_care",
+    "model_artifact_count": 20,
+    "reproducibility_tests": 20,
+    "model_versions_documented": 20,
+    "checks": 41,
+    "status_counts": {
+        "PASSED": 37,
+        "FAILED": 2,
+        "ALERT": 1,
+        "WARNING": 1
+    },
+    "passed_checks": 37,
+    "failed_checks": 2,
+    "warning_checks": 1,
+    "not_verified_checks": 0,
+    "data_refresh_exceptions": 900,
+    "overall_status": "REVIEW REQUIRED",
+    "important_note": "Repeated inference checks use available model interfaces. They do not replace a full end-to-end replay of the original training and forecasting pipeline. Monitoring and retraining documentation does not mean scheduled automation is active."
+}

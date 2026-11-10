@@ -1,0 +1,42 @@
+Area,Check,Status,Details
+Data Refresh,Raw dataset loaded,PASSED,1170 rows
+Data Refresh,Processed dataset loaded,PASSED,720 rows
+Data Refresh,Required raw columns,PASSED,All required raw columns available
+Data Refresh,Required processed columns,PASSED,All required processed columns available
+Data Refresh,Raw date values valid,PASS,720/1170 raw dates parsed successfully.
+Data Refresh,Raw target values complete,PASS,720/1170 raw target values are numeric and complete.
+Data Refresh,Processed date values valid,FAIL,720/1170 raw dates parsed successfully.
+Data Refresh,Raw duplicate dates,FAIL,720/1170 raw dates parsed successfully.
+Data Refresh,Processed duplicate dates,FAIL,720/1170 raw dates parsed successfully.
+Data Refresh,Processed target completeness,FAIL,720/1170 raw target values are numeric and complete.
+Data Refresh,Processed dates within raw coverage,FAIL,720/1170 raw dates parsed successfully.
+Data Refresh,Every processed date exists in raw data,FAIL,720/1170 raw dates parsed successfully.
+Data Refresh,Latest target values match,FAIL,720/1170 raw target values are numeric and complete.
+Data Refresh,Processed target non-negative,FAIL,720/1170 raw target values are numeric and complete.
+Reproducibility,Model reproducibility: gradient_boosting_14_day,PASSED,Repeated prediction using model feature schema
+Reproducibility,Model reproducibility: gradient_boosting_1_day,PASSED,Repeated prediction using model feature schema
+Reproducibility,Model reproducibility: gradient_boosting_30_day,PASSED,Repeated prediction using model feature schema
+Reproducibility,Model reproducibility: gradient_boosting_7_day,PASSED,Repeated prediction using model feature schema
+Reproducibility,Model reproducibility: gradient_boosting_recursive,PASSED,Repeated prediction using model feature schema
+Reproducibility,Model reproducibility: random_forest_14_day,PASSED,Repeated prediction using model feature schema
+Reproducibility,Model reproducibility: random_forest_1_day,PASSED,Repeated prediction using model feature schema
+Reproducibility,Model reproducibility: random_forest_30_day,PASSED,Repeated prediction using model feature schema
+Reproducibility,Model reproducibility: random_forest_7_day,PASSED,Repeated prediction using model feature schema
+Reproducibility,Model reproducibility: random_forest_recursive,PASSED,Repeated prediction using model feature schema
+Reproducibility,Model reproducibility: arima_final,PASSED,Repeated 30-step statistical forecast
+Reproducibility,Model reproducibility: arima_validation,PASSED,Repeated 30-step statistical forecast
+Reproducibility,Model reproducibility: holt_linear_trend_final,PASSED,Repeated default prediction
+Reproducibility,Model reproducibility: holt_linear_trend_validation,PASSED,Repeated default prediction
+Reproducibility,Model reproducibility: holt_winters_final,PASSED,Repeated default prediction
+Reproducibility,Model reproducibility: holt_winters_validation,PASSED,Repeated default prediction
+Reproducibility,Model reproducibility: sarima_final,PASSED,Repeated 30-step statistical forecast
+Reproducibility,Model reproducibility: sarima_validation,PASSED,Repeated 30-step statistical forecast
+Reproducibility,Model reproducibility: simple_exponential_smoothing_final,PASSED,Repeated default prediction
+Reproducibility,Model reproducibility: simple_exponential_smoothing_validation,PASSED,Repeated default prediction
+Reproducibility,Overall model inference reproducibility,PASSED,20 passed out of 20 model artifacts
+Model Monitoring,Target monitoring statistics,FAIL,720/1170 raw target values are numeric and complete.
+Drift Monitoring,Target distribution drift,FAIL,720/1170 raw target values are numeric and complete.
+Model Monitoring,Target mean change alert,FAIL,720/1170 raw target values are numeric and complete.
+Model Versioning,Model artifact inventory,PASSED,20 model artifacts inventoried
+Model Versioning,Existing model registry readable,PASSED,Model registry JSON loaded successfully
+Retraining,Retraining criteria documented,PASSED,"Performance, drift, data quality and stability triggers documented"

@@ -1,0 +1,13 @@
+Validation,Status
+All required raw columns identified,PASSED
+All required processed columns available,PASSED
+Raw date values valid,FAILED
+Processed date values valid,PASSED
+Raw dataset has no duplicate dates,PASSED
+Processed dataset has no duplicate dates,PASSED
+Raw target values have no missing values,FAILED
+Processed target values have no missing values,PASSED
+Processed dates fall within raw date coverage,PASSED
+Every processed date exists in raw dataset,PASSED
+Processed target values are non-negative,PASSED
+Latest target values match,PASSED

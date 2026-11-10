@@ -1,0 +1,152 @@
+{
+    "timestamp": "2026-11-05T16:28:04.083257",
+    "project": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand",
+    "dataset": {
+        "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\data\\processed\\cleaned_care_data.csv",
+        "observations": 720,
+        "start_date": "2023-01-12 00:00:00",
+        "end_date": "2025-12-21 00:00:00"
+    },
+    "module": {
+        "syntax_valid": true,
+        "feature_count": 23,
+        "backup": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\deployment\\live_model_forecasting_backup_final.py"
+    },
+    "feature_validation": {
+        "passed": true,
+        "features": [
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_7",
+            "lag_14",
+            "lag_30",
+            "rolling_mean_7",
+            "rolling_mean_14",
+            "rolling_mean_30",
+            "rolling_std_7",
+            "rolling_std_14",
+            "rolling_min_7",
+            "rolling_max_7",
+            "day_of_week",
+            "day_of_month",
+            "month",
+            "quarter",
+            "year",
+            "day_of_year",
+            "month_sin",
+            "month_cos",
+            "day_of_year_sin",
+            "day_of_year_cos"
+        ]
+    },
+    "machine_learning": {
+        "passed": 8,
+        "failed": 0,
+        "results": [
+            {
+                "Model": "gradient_boosting_1_day.joblib",
+                "Features": 23,
+                "Forecast": 5877.143772688783,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "gradient_boosting_7_day.joblib",
+                "Features": 23,
+                "Forecast": 6334.725593766767,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "gradient_boosting_14_day.joblib",
+                "Features": 23,
+                "Forecast": 6570.136957653228,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "gradient_boosting_30_day.joblib",
+                "Features": 23,
+                "Forecast": 6432.275184899594,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "random_forest_1_day.joblib",
+                "Features": 23,
+                "Forecast": 5927.487804112554,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "random_forest_7_day.joblib",
+                "Features": 23,
+                "Forecast": 6495.6,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "random_forest_14_day.joblib",
+                "Features": 23,
+                "Forecast": 6665.596,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "random_forest_30_day.joblib",
+                "Features": 23,
+                "Forecast": 6534.9431858543585,
+                "Status": "PASSED"
+            }
+        ],
+        "errors": []
+    },
+    "statistical": {
+        "passed": 5,
+        "failed": 0,
+        "results": [
+            {
+                "Model": "arima_final.joblib",
+                "Forecast_1": 2535.23973980869,
+                "Forecast_7": 2574.373572196451,
+                "Forecast_14": 2601.6297442638192,
+                "Forecast_30": 2626.8683311379787,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "holt_linear_trend_final.joblib",
+                "Forecast_1": 2540.077232551761,
+                "Forecast_7": 2613.003219897132,
+                "Forecast_14": 2698.083538466731,
+                "Forecast_30": 2892.552838054387,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "holt_winters_final.joblib",
+                "Forecast_1": 2547.7678437392406,
+                "Forecast_7": 2619.485665626043,
+                "Forecast_14": 2712.1623847355654,
+                "Forecast_30": 2915.9942036197444,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "sarima_final.joblib",
+                "Forecast_1": 2552.902682610021,
+                "Forecast_7": 2512.8208603793764,
+                "Forecast_14": 2472.901346475502,
+                "Forecast_30": 2310.2695599759345,
+                "Status": "PASSED"
+            },
+            {
+                "Model": "simple_exponential_smoothing_final.joblib",
+                "Forecast_1": 2527.9999996721745,
+                "Forecast_7": 2527.9999996721745,
+                "Forecast_14": 2527.9999996721745,
+                "Forecast_30": 2527.9999996721745,
+                "Status": "PASSED"
+            }
+        ],
+        "errors": []
+    },
+    "dashboard": {
+        "syntax_valid": true,
+        "live_integration_reference": false,
+        "ml_path_mismatches": [],
+        "statistical_path_mismatches": []
+    },
+    "overall_status": "REVIEW REQUIRED"
+}

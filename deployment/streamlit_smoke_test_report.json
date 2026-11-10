@@ -1,0 +1,15 @@
+{
+    "timestamp": "2026-11-04T17:43:24.991701",
+    "project_root": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand",
+    "application": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\app.py",
+    "isolated_python": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\.deployment_test_env\\Scripts\\python.exe",
+    "url": "http://127.0.0.1:60793",
+    "port": 60793,
+    "startup_success": true,
+    "http_status": 200,
+    "server_response": "OK",
+    "process_return_code": 1,
+    "log_file": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\outputs\\deployment\\streamlit_smoke_test.log",
+    "result": "PASSED",
+    "server_stopped": true
+}

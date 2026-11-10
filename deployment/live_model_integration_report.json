@@ -1,0 +1,51 @@
+{
+    "timestamp": "2026-11-04T17:53:44",
+    "project_root": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand",
+    "dataset": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\data\\processed\\cleaned_care_data.csv",
+    "application": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\app.py",
+    "backup": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\app_backup_before_live_integration_20261104_175344.py",
+    "forecasting_module": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\deployment\\live_model_forecasting.py",
+    "dataset_rows": 720,
+    "dataset_start": "2023-01-12",
+    "dataset_end": "2025-12-21",
+    "loaded_models": [
+        "arima_final.joblib",
+        "gradient_boosting_14_day.joblib",
+        "gradient_boosting_1_day.joblib",
+        "gradient_boosting_30_day.joblib",
+        "gradient_boosting_7_day.joblib",
+        "holt_linear_trend_final.joblib",
+        "holt_winters_final.joblib",
+        "random_forest_14_day.joblib",
+        "random_forest_1_day.joblib",
+        "random_forest_30_day.joblib",
+        "random_forest_7_day.joblib",
+        "sarima_final.joblib",
+        "simple_exponential_smoothing_final.joblib"
+    ],
+    "validated_ml_models": [
+        "random_forest_1_day.joblib",
+        "random_forest_7_day.joblib",
+        "random_forest_14_day.joblib",
+        "random_forest_30_day.joblib"
+    ],
+    "validated_statistical_models": [
+        "arima_final.joblib",
+        "holt_linear_trend_final.joblib",
+        "holt_winters_final.joblib",
+        "sarima_final.joblib",
+        "simple_exponential_smoothing_final.joblib"
+    ],
+    "model_loading_errors": {},
+    "inference_validation_errors": {
+        "gradient_boosting_1_day.joblib": "Input X contains NaN.\nGradientBoostingRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values",
+        "gradient_boosting_7_day.joblib": "Input X contains NaN.\nGradientBoostingRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values",
+        "gradient_boosting_14_day.joblib": "Input X contains NaN.\nGradientBoostingRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values",
+        "gradient_boosting_30_day.joblib": "Input X contains NaN.\nGradientBoostingRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values"
+    },
+    "dashboard_syntax_validation": "PASSED",
+    "module_syntax_validation": "PASSED",
+    "integration_marker_validation": "PASSED",
+    "dashboard_backup_created": true,
+    "integration_status": "INTEGRATED"
+}

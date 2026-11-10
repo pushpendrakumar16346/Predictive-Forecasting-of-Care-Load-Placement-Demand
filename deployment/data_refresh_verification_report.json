@@ -1,0 +1,40 @@
+{
+    "verification_timestamp": "2026-11-05T04:25:20.705135",
+    "raw_dataset": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\data\\raw\\HHS_Unaccompanied_Alien_Children_Program.csv",
+    "processed_dataset": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\data\\processed\\cleaned_care_data.csv",
+    "raw_observations": 1170,
+    "processed_observations": 720,
+    "raw_date_range": [
+        "2023-01-12 00:00:00",
+        "2025-12-21 00:00:00"
+    ],
+    "processed_date_range": [
+        "2023-01-12 00:00:00",
+        "2025-12-21 00:00:00"
+    ],
+    "raw_latest_target_values": [
+        2484.0
+    ],
+    "processed_latest_target_values": [
+        2484
+    ],
+    "raw_duplicate_dates": 0,
+    "processed_duplicate_dates": 0,
+    "raw_calendar_gaps": 355,
+    "processed_calendar_gaps": 355,
+    "checks": {
+        "All required raw columns identified": true,
+        "All required processed columns available": true,
+        "Raw date values valid": false,
+        "Processed date values valid": true,
+        "Raw dataset has no duplicate dates": true,
+        "Processed dataset has no duplicate dates": true,
+        "Raw target values have no missing values": false,
+        "Processed target values have no missing values": true,
+        "Processed dates fall within raw date coverage": true,
+        "Every processed date exists in raw dataset": true,
+        "Processed target values are non-negative": true,
+        "Latest target values match": true
+    },
+    "overall_status": "REVIEW REQUIRED"
+}

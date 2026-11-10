@@ -1,0 +1,21 @@
+notebook,status,details
+ 06_Statistical_Analysis.ipynb.ipynb,PASS,Notebook executed without cell errors
+01_Project setup and folder creation.ipynb,PASS,Notebook executed without cell errors
+02_Data_Inspection.ipynb,PASS,Notebook executed without cell errors
+03_Data_Cleaning.ipynb,FAIL,[1;31mFileNotFoundError[0m: Dataset not found: C:\Users\hp\data\raw\HHS_Unaccompanied_Alien_Children_Program.csv
+04_Time_Series_Continuity.ipynb,PASS,Notebook executed without cell errors
+05_Exploratory data analysis.ipynb,PASS,Notebook executed without cell errors
+07_Feature_Engineering.ipynb.ipynb,PASS,Notebook executed without cell errors
+08_Forecasting framework and validation.ipynb,PASS,Notebook executed without cell errors
+09_Baseline_Forecasting.ipynb.ipynb,PASS,Notebook executed without cell errors
+10_Statistical_Forecasting.ipynb.ipynb,PASS,Notebook executed without cell errors
+11_Machine_Learning.ipynb.ipynb,PASS,Notebook executed without cell errors
+12_Model_Evaluation.ipynb,PASS,Notebook executed without cell errors
+13_Confidence intervals and uncertainty analysis.ipynb,PASS,Notebook executed without cell errors
+14_KPI_and_Risk_Analysis.ipynb,PASS,Notebook executed without cell errors
+15_Scenario_Analysis.ipynb,PASS,Notebook executed without cell errors
+16_Streamlit_Development.ipynb,PASS,Notebook executed without cell errors
+17_Research_Paper.ipynb,FAIL,[1;31mRuntimeError[0m: Research manuscript text is missing. Run the manuscript preparation cells before this export cell.
+18_Government_Executive_Summary.ipynb,PASS,Notebook executed without cell errors
+19_Deployment_and_Maintenance.ipynb,FAIL,-------------------
+20_Final quality assurance and submission.ipynb,FAIL,-------------------

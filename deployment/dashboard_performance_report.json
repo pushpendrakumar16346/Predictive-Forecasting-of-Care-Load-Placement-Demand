@@ -1,0 +1,14 @@
+{
+    "test_name": "Dashboard Performance Testing",
+    "timestamp": "2026-11-05T04:07:00.614387",
+    "dashboard_path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\app.py",
+    "deployment_python": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\.deployment_test_env\\Scripts\\python.exe",
+    "dashboard_url": "http://127.0.0.1:8501",
+    "process_running": true,
+    "http_status": 200,
+    "startup_time_seconds": 0.009201599983498454,
+    "response_time_ms": 8.416500000748783,
+    "critical_application_errors": [],
+    "last_connection_error": null,
+    "status": "PASSED"
+}

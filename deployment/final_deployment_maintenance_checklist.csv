@@ -1,0 +1,7 @@
+Verification,Status,Details
+Forecast reproducibility testing,PASS,20 checks passed.
+Data refresh procedure,PASS,720 non-empty raw records; Raw date values valid: PASS; Raw target values complete: PASS; Raw dates contain no duplicates: PASS; Processed dataset valid: PASS; Raw and processed record counts match: PASS; All raw and processed records match: PASS
+Model monitoring procedure,PASS,Monitoring metrics contain 7 rows; documentation exists.
+Model drift monitoring,PASS,Drift report contains 1 valid PSI values.
+Retraining criteria,PASS,Retraining documentation and JSON are valid.
+Model version documentation,PASS,Version JSON valid; inventory contains 20 rows.

@@ -1,0 +1,1147 @@
+{
+    "audit_timestamp": "2026-11-05T16:28:00.579118",
+    "project_root": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand",
+    "model_audit": [
+        {
+            "model": "gradient_boosting_14_day.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\machine_learning\\gradient_boosting_14_day.joblib",
+            "load_status": "LOADED",
+            "feature_count": 23,
+            "features": [
+                "lag_1",
+                "lag_2",
+                "lag_3",
+                "lag_7",
+                "lag_14",
+                "lag_30",
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "rolling_std_7",
+                "rolling_std_14",
+                "rolling_min_7",
+                "rolling_max_7",
+                "day_of_week",
+                "day_of_month",
+                "month",
+                "quarter",
+                "year",
+                "day_of_year",
+                "month_sin",
+                "month_cos",
+                "day_of_year_sin",
+                "day_of_year_cos"
+            ],
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": true,
+            "sha256": "55e7064e0daa9a4a8b43cccb6a0adbb4277bdc5ebf520282b803af35ec07d46d",
+            "error": null
+        },
+        {
+            "model": "gradient_boosting_1_day.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\machine_learning\\gradient_boosting_1_day.joblib",
+            "load_status": "LOADED",
+            "feature_count": 23,
+            "features": [
+                "lag_1",
+                "lag_2",
+                "lag_3",
+                "lag_7",
+                "lag_14",
+                "lag_30",
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "rolling_std_7",
+                "rolling_std_14",
+                "rolling_min_7",
+                "rolling_max_7",
+                "day_of_week",
+                "day_of_month",
+                "month",
+                "quarter",
+                "year",
+                "day_of_year",
+                "month_sin",
+                "month_cos",
+                "day_of_year_sin",
+                "day_of_year_cos"
+            ],
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": true,
+            "sha256": "8fe22a0f7e11c38e8080a34d7465f6241c343e0ebe8454c54a7b60b8e5d9ba7b",
+            "error": null
+        },
+        {
+            "model": "gradient_boosting_30_day.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\machine_learning\\gradient_boosting_30_day.joblib",
+            "load_status": "LOADED",
+            "feature_count": 23,
+            "features": [
+                "lag_1",
+                "lag_2",
+                "lag_3",
+                "lag_7",
+                "lag_14",
+                "lag_30",
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "rolling_std_7",
+                "rolling_std_14",
+                "rolling_min_7",
+                "rolling_max_7",
+                "day_of_week",
+                "day_of_month",
+                "month",
+                "quarter",
+                "year",
+                "day_of_year",
+                "month_sin",
+                "month_cos",
+                "day_of_year_sin",
+                "day_of_year_cos"
+            ],
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": true,
+            "sha256": "077d9f4abc6a8080bae8a83653a26674e91d2350cdc268398c9f8a9ee0cea774",
+            "error": null
+        },
+        {
+            "model": "gradient_boosting_7_day.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\machine_learning\\gradient_boosting_7_day.joblib",
+            "load_status": "LOADED",
+            "feature_count": 23,
+            "features": [
+                "lag_1",
+                "lag_2",
+                "lag_3",
+                "lag_7",
+                "lag_14",
+                "lag_30",
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "rolling_std_7",
+                "rolling_std_14",
+                "rolling_min_7",
+                "rolling_max_7",
+                "day_of_week",
+                "day_of_month",
+                "month",
+                "quarter",
+                "year",
+                "day_of_year",
+                "month_sin",
+                "month_cos",
+                "day_of_year_sin",
+                "day_of_year_cos"
+            ],
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": true,
+            "sha256": "4d2924c265025d3d95a75650956c7f0d6e2f7e926731c21cdc4e7f6022548530",
+            "error": null
+        },
+        {
+            "model": "gradient_boosting_recursive.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\machine_learning\\gradient_boosting_recursive.joblib",
+            "load_status": "LOADED",
+            "feature_count": 23,
+            "features": [
+                "lag_1",
+                "lag_2",
+                "lag_3",
+                "lag_7",
+                "lag_14",
+                "lag_30",
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "rolling_std_7",
+                "rolling_std_14",
+                "rolling_min_7",
+                "rolling_max_7",
+                "day_of_week",
+                "day_of_month",
+                "month",
+                "quarter",
+                "year",
+                "day_of_year",
+                "month_sin",
+                "month_cos",
+                "day_of_year_sin",
+                "day_of_year_cos"
+            ],
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": true,
+            "sha256": "7f651bd97fedc16b3c2a754924e11770ff6d06d059a0b6737371c10283f4c36d",
+            "error": null
+        },
+        {
+            "model": "random_forest_14_day.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\machine_learning\\random_forest_14_day.joblib",
+            "load_status": "LOADED",
+            "feature_count": 23,
+            "features": [
+                "lag_1",
+                "lag_2",
+                "lag_3",
+                "lag_7",
+                "lag_14",
+                "lag_30",
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "rolling_std_7",
+                "rolling_std_14",
+                "rolling_min_7",
+                "rolling_max_7",
+                "day_of_week",
+                "day_of_month",
+                "month",
+                "quarter",
+                "year",
+                "day_of_year",
+                "month_sin",
+                "month_cos",
+                "day_of_year_sin",
+                "day_of_year_cos"
+            ],
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": true,
+            "sha256": "7a7b73f7690b1bc24d83c6bb2dac4cc6d0db293f98f7b7ec62a6d60199c1d00d",
+            "error": null
+        },
+        {
+            "model": "random_forest_1_day.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\machine_learning\\random_forest_1_day.joblib",
+            "load_status": "LOADED",
+            "feature_count": 23,
+            "features": [
+                "lag_1",
+                "lag_2",
+                "lag_3",
+                "lag_7",
+                "lag_14",
+                "lag_30",
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "rolling_std_7",
+                "rolling_std_14",
+                "rolling_min_7",
+                "rolling_max_7",
+                "day_of_week",
+                "day_of_month",
+                "month",
+                "quarter",
+                "year",
+                "day_of_year",
+                "month_sin",
+                "month_cos",
+                "day_of_year_sin",
+                "day_of_year_cos"
+            ],
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": true,
+            "sha256": "643b735e85b36879cc8f15134adf0aa9bb05286263a56644859843c30f330d34",
+            "error": null
+        },
+        {
+            "model": "random_forest_30_day.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\machine_learning\\random_forest_30_day.joblib",
+            "load_status": "LOADED",
+            "feature_count": 23,
+            "features": [
+                "lag_1",
+                "lag_2",
+                "lag_3",
+                "lag_7",
+                "lag_14",
+                "lag_30",
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "rolling_std_7",
+                "rolling_std_14",
+                "rolling_min_7",
+                "rolling_max_7",
+                "day_of_week",
+                "day_of_month",
+                "month",
+                "quarter",
+                "year",
+                "day_of_year",
+                "month_sin",
+                "month_cos",
+                "day_of_year_sin",
+                "day_of_year_cos"
+            ],
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": true,
+            "sha256": "d584573751db1ae21475e76a79c6c6d9b394c908f242418cacf7ae0b3324c8cf",
+            "error": null
+        },
+        {
+            "model": "random_forest_7_day.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\machine_learning\\random_forest_7_day.joblib",
+            "load_status": "LOADED",
+            "feature_count": 23,
+            "features": [
+                "lag_1",
+                "lag_2",
+                "lag_3",
+                "lag_7",
+                "lag_14",
+                "lag_30",
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "rolling_std_7",
+                "rolling_std_14",
+                "rolling_min_7",
+                "rolling_max_7",
+                "day_of_week",
+                "day_of_month",
+                "month",
+                "quarter",
+                "year",
+                "day_of_year",
+                "month_sin",
+                "month_cos",
+                "day_of_year_sin",
+                "day_of_year_cos"
+            ],
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": true,
+            "sha256": "9e9c4eaf774a2b6b9260a0dbf309d4c7cf6e31128d58d60d17474f457c88559d",
+            "error": null
+        },
+        {
+            "model": "random_forest_recursive.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\machine_learning\\random_forest_recursive.joblib",
+            "load_status": "LOADED",
+            "feature_count": 23,
+            "features": [
+                "lag_1",
+                "lag_2",
+                "lag_3",
+                "lag_7",
+                "lag_14",
+                "lag_30",
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "rolling_std_7",
+                "rolling_std_14",
+                "rolling_min_7",
+                "rolling_max_7",
+                "day_of_week",
+                "day_of_month",
+                "month",
+                "quarter",
+                "year",
+                "day_of_year",
+                "month_sin",
+                "month_cos",
+                "day_of_year_sin",
+                "day_of_year_cos"
+            ],
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": true,
+            "sha256": "764330e37c35b8599e028e20e145e0d64f3a61a1a70c7e991a13c5265553ac9b",
+            "error": null
+        },
+        {
+            "model": "arima_final.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\statistical\\arima_final.joblib",
+            "load_status": "LOADED",
+            "feature_count": null,
+            "features": null,
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": null,
+            "sha256": "19ebfd34bfefbfaa3d0ca938504d4686a20256b121a768fe1e97cd0fe26272f3",
+            "error": null
+        },
+        {
+            "model": "arima_validation.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\statistical\\arima_validation.joblib",
+            "load_status": "LOADED",
+            "feature_count": null,
+            "features": null,
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": null,
+            "sha256": "68ab6785d4d2c649d263dd2c6b066f24ef21987bdf2c78886169d603fbea3aa0",
+            "error": null
+        },
+        {
+            "model": "holt_linear_trend_final.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\statistical\\holt_linear_trend_final.joblib",
+            "load_status": "LOADED",
+            "feature_count": null,
+            "features": null,
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": null,
+            "sha256": "a200cf877a9d75ffae8ff072e545051a1b55759cc2d0ea065dd8a041b043d898",
+            "error": null
+        },
+        {
+            "model": "holt_linear_trend_validation.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\statistical\\holt_linear_trend_validation.joblib",
+            "load_status": "LOADED",
+            "feature_count": null,
+            "features": null,
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": null,
+            "sha256": "99c3e1085abe82ebc92012afba67e883807dc881efb120ff8ab63b7b6da50cf3",
+            "error": null
+        },
+        {
+            "model": "holt_winters_final.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\statistical\\holt_winters_final.joblib",
+            "load_status": "LOADED",
+            "feature_count": null,
+            "features": null,
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": null,
+            "sha256": "c84ddb7b9fa11af5ac8881118b8621ad9ed3872f7a1e9605484626c31c578f55",
+            "error": null
+        },
+        {
+            "model": "holt_winters_validation.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\statistical\\holt_winters_validation.joblib",
+            "load_status": "LOADED",
+            "feature_count": null,
+            "features": null,
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": null,
+            "sha256": "2a0bca3afa80a8a4ad5f21185e262f1945bfcf887b310232e7a53fc068c1c23d",
+            "error": null
+        },
+        {
+            "model": "sarima_final.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\statistical\\sarima_final.joblib",
+            "load_status": "LOADED",
+            "feature_count": null,
+            "features": null,
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": null,
+            "sha256": "bc51a32b079e69290e7a00ec9866306aaea206f74330a074e615b01dbbd065e7",
+            "error": null
+        },
+        {
+            "model": "sarima_validation.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\statistical\\sarima_validation.joblib",
+            "load_status": "LOADED",
+            "feature_count": null,
+            "features": null,
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": null,
+            "sha256": "45b39c70c5db1e48414a2bc7988222584d1478c55ab128567b0ffebf68c3e8be",
+            "error": null
+        },
+        {
+            "model": "simple_exponential_smoothing_final.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\statistical\\simple_exponential_smoothing_final.joblib",
+            "load_status": "LOADED",
+            "feature_count": null,
+            "features": null,
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": null,
+            "sha256": "bffd9001f9ebf75017516610b77664965dfb376abb5ae623a5074f0be330c353",
+            "error": null
+        },
+        {
+            "model": "simple_exponential_smoothing_validation.joblib",
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\statistical\\simple_exponential_smoothing_validation.joblib",
+            "load_status": "LOADED",
+            "feature_count": null,
+            "features": null,
+            "missing_expected_features": [],
+            "unexpected_features": [],
+            "feature_order_matches": null,
+            "sha256": "14902b6b85f7ca9392be38865ac6325c72a69caa84b8c6a345322317ede11d3a",
+            "error": null
+        }
+    ],
+    "source_audit": {
+        "dashboard": {
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\app.py",
+            "exists": true,
+            "syntax_valid": true,
+            "line_count": 899,
+            "relevant_lines": [
+                {
+                    "line": 16,
+                    "text": "page_title=\"Care Load and Placement Demand Forecasting\","
+                },
+                {
+                    "line": 32,
+                    "text": "FORECAST_HORIZONS = [1, 7, 14, 30]"
+                },
+                {
+                    "line": 34,
+                    "text": "st.title(\"Care Load and Placement Demand Forecasting\")"
+                },
+                {
+                    "line": 37,
+                    "text": "\"Historical monitoring, predictive forecasting, \""
+                },
+                {
+                    "line": 129,
+                    "text": "\"forecast_date\","
+                },
+                {
+                    "line": 282,
+                    "text": "forecast_horizon = st.sidebar.selectbox("
+                },
+                {
+                    "line": 283,
+                    "text": "\"Forecast horizon\","
+                },
+                {
+                    "line": 284,
+                    "text": "FORECAST_HORIZONS,"
+                },
+                {
+                    "line": 375,
+                    "text": "\"Predictive Forecasting\","
+                },
+                {
+                    "line": 520,
+                    "text": "# Predictive forecasting module"
+                },
+                {
+                    "line": 523,
+                    "text": "elif module == \"Predictive Forecasting\":"
+                },
+                {
+                    "line": 525,
+                    "text": "st.header(\"Predictive Forecasting\")"
+                },
+                {
+                    "line": 527,
+                    "text": "prediction_records = find_records("
+                },
+                {
+                    "line": 530,
+                    "text": "\"prediction\","
+                },
+                {
+                    "line": 531,
+                    "text": "\"forecast\","
+                },
+                {
+                    "line": 536,
+                    "text": "if not prediction_records:"
+                },
+                {
+                    "line": 538,
+                    "text": "\"No saved prediction files were found in outputs.\""
+                },
+                {
+                    "line": 543,
+                    "text": "\"Select forecast file\","
+                },
+                {
+                    "line": 544,
+                    "text": "[record[\"name\"] for record in prediction_records]"
+                },
+                {
+                    "line": 549,
+                    "text": "for record in prediction_records"
+                },
+                {
+                    "line": 553,
+                    "text": "prediction_df = selected_record[\"data\"].copy()"
+                },
+                {
+                    "line": 555,
+                    "text": "display_table(prediction_df.head(200))"
+                },
+                {
+                    "line": 558,
+                    "text": "prediction_df"
+                },
+                {
+                    "line": 562,
+                    "text": "prediction_column = st.selectbox("
+                },
+                {
+                    "line": 563,
+                    "text": "\"Select prediction column\","
+                },
+                {
+                    "line": 568,
+                    "text": "prediction_df"
+                },
+                {
+                    "line": 572,
+                    "text": "prediction_df[date_column] = pd.to_datetime("
+                },
+                {
+                    "line": 573,
+                    "text": "prediction_df[date_column],"
+                },
+                {
+                    "line": 577,
+                    "text": "plot_df = prediction_df.dropna("
+                },
+                {
+                    "line": 580,
+                    "text": "prediction_column"
+                },
+                {
+                    "line": 588,
+                    "text": "y=prediction_column,"
+                },
+                {
+                    "line": 589,
+                    "text": "title=\"Saved Forecast Predictions\""
+                },
+                {
+                    "line": 598,
+                    "text": "prediction_df,"
+                },
+                {
+                    "line": 599,
+                    "text": "\"forecast_predictions.csv\","
+                },
+                {
+                    "line": 600,
+                    "text": "\"Download predictions\""
+                },
+                {
+                    "line": 603,
+                    "text": "st.subheader(\"Forecast configuration\")"
+                },
+                {
+                    "line": 605,
+                    "text": "st.write(\"Forecast horizon:\", forecast_horizon, \"days\")"
+                },
+                {
+                    "line": 626,
+                    "text": "\"No saved prediction interval file was found. \""
+                },
+                {
+                    "line": 763,
+                    "text": "\"scenario_forecast_summary\","
+                },
+                {
+                    "line": 764,
+                    "text": "\"scenario_daily_forecasts\","
+                },
+                {
+                    "line": 817,
+                    "text": "title=\"Scenario Forecast Comparison\""
+                },
+                {
+                    "line": 873,
+                    "text": "<p>Forecast horizon: {forecast_horizon} days</p>"
+                },
+                {
+                    "line": 892,
+                    "text": "\"Care Load and Placement Demand Forecasting Dashboard\""
+                },
+                {
+                    "line": 896,
+                    "text": "\"Forecast outputs and operational indicators should be \""
+                }
+            ],
+            "error": null
+        },
+        "model_loader": {
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\models\\model_loader.py",
+            "exists": true,
+            "syntax_valid": true,
+            "line_count": 85,
+            "relevant_lines": [
+                {
+                    "line": 26,
+                    "text": "def load_model(model_path=None, model_name=None):"
+                },
+                {
+                    "line": 27,
+                    "text": "selected_path = model_path or os.getenv(\"FORECAST_MODEL_PATH\")"
+                },
+                {
+                    "line": 59,
+                    "text": "model = joblib.load(path)"
+                },
+                {
+                    "line": 68,
+                    "text": "def predict_with_model(model, features):"
+                },
+                {
+                    "line": 69,
+                    "text": "if not hasattr(model, \"predict\"):"
+                },
+                {
+                    "line": 70,
+                    "text": "raise TypeError(\"Model does not expose predict().\")"
+                },
+                {
+                    "line": 72,
+                    "text": "return model.predict(features)"
+                }
+            ],
+            "error": null
+        },
+        "live_forecasting": {
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\deployment\\live_model_forecasting.py",
+            "exists": true,
+            "syntax_valid": true,
+            "line_count": 485,
+            "relevant_lines": [
+                {
+                    "line": 33,
+                    "text": "FEATURES = ["
+                },
+                {
+                    "line": 34,
+                    "text": "\"lag_1\","
+                },
+                {
+                    "line": 35,
+                    "text": "\"lag_2\","
+                },
+                {
+                    "line": 36,
+                    "text": "\"lag_3\","
+                },
+                {
+                    "line": 37,
+                    "text": "\"lag_7\","
+                },
+                {
+                    "line": 38,
+                    "text": "\"lag_14\","
+                },
+                {
+                    "line": 39,
+                    "text": "\"lag_30\","
+                },
+                {
+                    "line": 40,
+                    "text": "\"rolling_mean_7\","
+                },
+                {
+                    "line": 41,
+                    "text": "\"rolling_mean_14\","
+                },
+                {
+                    "line": 42,
+                    "text": "\"rolling_mean_30\","
+                },
+                {
+                    "line": 43,
+                    "text": "\"rolling_std_7\","
+                },
+                {
+                    "line": 44,
+                    "text": "\"rolling_std_14\","
+                },
+                {
+                    "line": 45,
+                    "text": "\"rolling_min_7\","
+                },
+                {
+                    "line": 46,
+                    "text": "\"rolling_max_7\","
+                },
+                {
+                    "line": 59,
+                    "text": "# FEATURE ENGINEERING"
+                },
+                {
+                    "line": 61,
+                    "text": "def _features(frame):"
+                },
+                {
+                    "line": 108,
+                    "text": "row[f\"lag_{lag}\"] = float(values.iloc[-lag])"
+                },
+                {
+                    "line": 119,
+                    "text": "row[f\"rolling_mean_{window}\"] = float(sample.mean())"
+                },
+                {
+                    "line": 124,
+                    "text": "row[\"rolling_std_7\"] = float("
+                },
+                {
+                    "line": 128,
+                    "text": "row[\"rolling_std_14\"] = float("
+                },
+                {
+                    "line": 132,
+                    "text": "row[\"rolling_min_7\"] = float("
+                },
+                {
+                    "line": 136,
+                    "text": "row[\"rolling_max_7\"] = float("
+                },
+                {
+                    "line": 163,
+                    "text": "features = pd.DataFrame("
+                },
+                {
+                    "line": 165,
+                    "text": "columns=FEATURES"
+                },
+                {
+                    "line": 168,
+                    "text": "if features.shape[1] != 23:"
+                },
+                {
+                    "line": 170,
+                    "text": "f\"Expected 23 features, generated {features.shape[1]}.\""
+                },
+                {
+                    "line": 173,
+                    "text": "if features.isna().any().any():"
+                },
+                {
+                    "line": 174,
+                    "text": "missing = features.columns["
+                },
+                {
+                    "line": 175,
+                    "text": "features.isna().any()"
+                },
+                {
+                    "line": 179,
+                    "text": "f\"Generated features contain missing values: {missing}\""
+                },
+                {
+                    "line": 182,
+                    "text": "if not np.isfinite(features.to_numpy(dtype=float)).all():"
+                },
+                {
+                    "line": 184,
+                    "text": "\"Generated features contain non-finite values.\""
+                },
+                {
+                    "line": 187,
+                    "text": "return features"
+                },
+                {
+                    "line": 190,
+                    "text": "# MODEL FEATURE VALIDATION"
+                },
+                {
+                    "line": 192,
+                    "text": "def _validate_model_features(model, features):"
+                },
+                {
+                    "line": 194,
+                    "text": "model_features = getattr("
+                },
+                {
+                    "line": 196,
+                    "text": "\"feature_names_in_\","
+                },
+                {
+                    "line": 200,
+                    "text": "if model_features is not None:"
+                },
+                {
+                    "line": 202,
+                    "text": "model_features = list(model_features)"
+                },
+                {
+                    "line": 205,
+                    "text": "name for name in model_features"
+                },
+                {
+                    "line": 206,
+                    "text": "if name not in features.columns"
+                },
+                {
+                    "line": 211,
+                    "text": "f\"Missing model input features: {missing}\""
+                },
+                {
+                    "line": 214,
+                    "text": "features = features.loc[:, model_features]"
+                },
+                {
+                    "line": 218,
+                    "text": "\"n_features_in_\","
+                },
+                {
+                    "line": 224,
+                    "text": "and features.shape[1] != int(expected_count)"
+                },
+                {
+                    "line": 227,
+                    "text": "f\"Model expects {expected_count} features, \""
+                },
+                {
+                    "line": 228,
+                    "text": "f\"but received {features.shape[1]}.\""
+                },
+                {
+                    "line": 231,
+                    "text": "return features"
+                },
+                {
+                    "line": 234,
+                    "text": "# LIVE FORECASTING DASHBOARD"
+                },
+                {
+                    "line": 236,
+                    "text": "def render_live_forecasting_panel(project_root):"
+                },
+                {
+                    "line": 251,
+                    "text": "st.subheader(\"Live Trained-Model Forecasting\")"
+                },
+                {
+                    "line": 254,
+                    "text": "\"Forecasts are generated using saved trained models \""
+                },
+                {
+                    "line": 308,
+                    "text": "\"No supported live forecasting models were found.\""
+                },
+                {
+                    "line": 321,
+                    "text": "key=\"live_forecast_model_family\""
+                },
+                {
+                    "line": 325,
+                    "text": "\"Forecast horizon\","
+                },
+                {
+                    "line": 327,
+                    "text": "key=\"live_forecast_horizon\""
+                },
+                {
+                    "line": 331,
+                    "text": "\"Generate live forecast\","
+                },
+                {
+                    "line": 332,
+                    "text": "key=\"generate_live_forecast\""
+                },
+                {
+                    "line": 337,
+                    "text": "# MACHINE LEARNING FORECAST"
+                },
+                {
+                    "line": 359,
+                    "text": "model = joblib.load(model_path)"
+                },
+                {
+                    "line": 361,
+                    "text": "features = _features(frame)"
+                },
+                {
+                    "line": 363,
+                    "text": "features = _validate_model_features("
+                },
+                {
+                    "line": 365,
+                    "text": "features"
+                },
+                {
+                    "line": 368,
+                    "text": "prediction = model.predict(features)"
+                },
+                {
+                    "line": 371,
+                    "text": "np.asarray(prediction).reshape(-1)[0]"
+                },
+                {
+                    "line": 376,
+                    "text": "\"The ML model generated a non-finite forecast.\""
+                },
+                {
+                    "line": 382,
+                    "text": "\"Forecast\": value"
+                },
+                {
+                    "line": 385,
+                    "text": "# STATISTICAL MODEL FORECAST"
+                },
+                {
+                    "line": 393,
+                    "text": "model = joblib.load("
+                },
+                {
+                    "line": 397,
+                    "text": "if hasattr(model, \"forecast\"):"
+                },
+                {
+                    "line": 399,
+                    "text": "forecast = model.forecast("
+                },
+                {
+                    "line": 403,
+                    "text": "elif hasattr(model, \"predict\"):"
+                },
+                {
+                    "line": 405,
+                    "text": "forecast = model.predict("
+                },
+                {
+                    "line": 412,
+                    "text": "\"Model does not support forecast() or predict().\""
+                },
+                {
+                    "line": 416,
+                    "text": "forecast"
+                },
+                {
+                    "line": 421,
+                    "text": "\"Model returned fewer forecast values \""
+                },
+                {
+                    "line": 429,
+                    "text": "\"Model returned a non-finite forecast.\""
+                },
+                {
+                    "line": 437,
+                    "text": "\"Forecast\": value"
+                },
+                {
+                    "line": 446,
+                    "text": "# FORECAST RESULTS"
+                },
+                {
+                    "line": 460,
+                    "text": "f\"{result['Model']} forecast\","
+                },
+                {
+                    "line": 461,
+                    "text": "f\"{result['Forecast']:,.2f}\""
+                },
+                {
+                    "line": 465,
+                    "text": "\"Download live forecast\","
+                },
+                {
+                    "line": 469,
+                    "text": "file_name=\"live_model_forecast.csv\","
+                },
+                {
+                    "line": 476,
+                    "text": "\"No valid forecasts were generated.\""
+                },
+                {
+                    "line": 482,
+                    "text": "f\"Live forecasting error: {exc}\""
+                }
+            ],
+            "error": null
+        },
+        "dashboard_integration": {
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\deployment\\dashboard_model_integration.py",
+            "exists": true,
+            "syntax_valid": true,
+            "line_count": 49,
+            "relevant_lines": [
+                {
+                    "line": 49,
+                    "text": "return joblib.load(path)"
+                }
+            ],
+            "error": null
+        }
+    },
+    "feature_engineering_files": [
+        {
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\deployment\\live_model_forecasting.py",
+            "matched_features": [
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "day_of_year_sin",
+                "month_sin",
+                "lag_1",
+                "feature_names_in_"
+            ]
+        },
+        {
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\deployment\\live_model_forecasting_backup.py",
+            "matched_features": [
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "day_of_year_sin",
+                "month_sin",
+                "lag_1",
+                "feature_names_in_"
+            ]
+        },
+        {
+            "path": "C:\\Users\\hp\\Predictive Forecasting of Care Load & Placement Demand\\deployment\\live_model_forecasting_backup_final.py",
+            "matched_features": [
+                "rolling_mean_7",
+                "rolling_mean_14",
+                "rolling_mean_30",
+                "day_of_year_sin",
+                "month_sin",
+                "lag_1",
+                "feature_names_in_"
+            ]
+        }
+    ],
+    "compatibility_summary": {
+        "models_discovered": 20,
+        "models_loaded": 20,
+        "models_failed": 0,
+        "machine_learning_models": 10,
+        "statistical_models": 10,
+        "exactly_compatible_ml_models": 10,
+        "ml_models_requiring_investigation": [],
+        "expected_feature_count": 23,
+        "expected_features": [
+            "lag_1",
+            "lag_2",
+            "lag_3",
+            "lag_7",
+            "lag_14",
+            "lag_30",
+            "rolling_mean_7",
+            "rolling_mean_14",
+            "rolling_mean_30",
+            "rolling_std_7",
+            "rolling_std_14",
+            "rolling_min_7",
+            "rolling_max_7",
+            "day_of_week",
+            "day_of_month",
+            "month",
+            "quarter",
+            "year",
+            "day_of_year",
+            "month_sin",
+            "month_cos",
+            "day_of_year_sin",
+            "day_of_year_cos"
+        ],
+        "feature_engineering_files_found": 3
+    },
+    "errors": []
+}

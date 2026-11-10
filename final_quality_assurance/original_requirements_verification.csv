@@ -1,0 +1,19 @@
+requirement,evidence_found,status
+Data loading and inspection,read_csv; read_excel,EVIDENCE FOUND
+Data cleaning,dropna; to_datetime,EVIDENCE FOUND
+Date continuity,date_range; missing_dates,EVIDENCE FOUND
+Exploratory analysis,describe; correlation,EVIDENCE FOUND
+Trend and seasonality,seasonal_decompose; trend,EVIDENCE FOUND
+Lag and rolling features,shift(; rolling(,EVIDENCE FOUND
+Flow indicators,transfers; discharges,EVIDENCE FOUND
+Calendar features,day_of_week; day_of_year,EVIDENCE FOUND
+Chronological validation,TimeSeriesSplit; chronological,EVIDENCE FOUND
+Baseline forecasting,persistence; moving average,EVIDENCE FOUND
+Statistical forecasting,ARIMA; ExponentialSmoothing,EVIDENCE FOUND
+Machine learning forecasting,RandomForest; GradientBoosting,EVIDENCE FOUND
+Multiple forecast horizons,FORECAST_HORIZONS; 30,EVIDENCE FOUND
+Forecast evaluation,MAE; RMSE; MAPE,EVIDENCE FOUND
+Prediction uncertainty,confidence_interval; lower_bound,EVIDENCE FOUND
+Capacity and surge risk,capacity; surge,EVIDENCE FOUND
+Scenario analysis,scenario,EVIDENCE FOUND
+Dashboard,streamlit; st.dataframe,EVIDENCE FOUND

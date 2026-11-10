@@ -1,0 +1,19 @@
+{
+    "verification_timestamp": "2026-11-05T18:17:29.493236",
+    "documentation_passed": 4,
+    "documentation_total": 4,
+    "requirements_with_evidence": 18,
+    "requirements_total": 18,
+    "notebooks_executed": 20,
+    "notebooks_passed": 16,
+    "model_output_files_checked": 247,
+    "model_output_passed": 242,
+    "model_output_failed": 0,
+    "dashboard_source_status": "PASS",
+    "research_and_summary_documents": 4,
+    "documents_with_text_extracted": 2,
+    "presentation_status": "PASS",
+    "presentation_slides": 9,
+    "processed_dataset_status": "PASS",
+    "processed_dataset_details": "720 records; 2023-01-12 to 2025-12-21"
+}

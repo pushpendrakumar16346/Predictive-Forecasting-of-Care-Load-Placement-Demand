@@ -1,0 +1,5 @@
+file,status,extracted_text_characters,details
+research_paper\Predictive_Forecasting_Research_Paper.docx,CONTENT EXTRACTED,16042,Text extraction successful; numerical cross-check remains separate
+research_paper\Predictive_Forecasting_Research_Paper.pdf,FAIL,0,No module named 'pypdf'
+government_executive_summary\Government_Executive_Summary.docx,CONTENT EXTRACTED,5120,Text extraction successful; numerical cross-check remains separate
+government_executive_summary\Government_Executive_Summary.pdf,FAIL,0,No module named 'pypdf'
